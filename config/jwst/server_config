@@ -237,7 +237,7 @@
  'crds_version': {'rev': '54766da', 'str': '6.0.0', 'svnurl': '/'},
  'edit_context': 'jwst_0184.pmap',
  'force_remote_mode': False,
- 'last_synced': '2016-05-06 11:23:28.721754',
+ 'last_synced': '2016-05-06 11:29:07.122706',
  'mapping_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/mappings/jwst/'},
  'mappings': ['jwst.pmap',
               'jwst_0000.pmap',
