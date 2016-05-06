@@ -4,7 +4,55 @@
                     'jwst_miri_flat_0002.rmap',
                     'jwst_miri_flat_0003.rmap'],
  'connected': True,
- 'context_history': [['2016-04-20 09:04:16',
+ 'context_history': [['2016-05-05 09:44:40',
+                      'jwst_0183.pmap',
+                      'Delivery of new MIRI MRS distortion, regions, '
+                      'specwcs, v2v3 and wavelengthrange reference files '
+                      'derived from CDP5 data and converted to the right '
+                      'format by SSB. Delivery of new NIRSpec camera, '
+                      'collimator, disperser, fore, fpa, ifufore, ifupost, '
+                      'ifuslicer, msa, ote, and wavelengthrange reference '
+                      'files derived from CDP4.  Delivery of FGS pixel '
+                      'area maps and photometric reference files. This '
+                      'delivery corrects the headers of the pixel area '
+                      'files.  Delivery of NIRISS pixel area and photom '
+                      'reference files. The pixel area only corrects '
+                      'header keywords. Changed READPATT=ANY to '
+                      'READPATT=N/A for FGS SUPERBIAS.  Delivery FGS rmaps '
+                      'for photom and pixel area reference files to remove '
+                      'old files that had a different useafter date and '
+                      'were not replaced with the last delivery when they '
+                      'should have.  Delivery of NIRISS rmaps for pixel '
+                      'area map and photom to remove old file that had '
+                      'different useafter and that were not removed with '
+                      'the new delivery.  Changes to NIRSPEC CAMERA, '
+                      'COLLIMATOR, DISPERSER, FORE, FPA, IFUFORE, IFUPOST, '
+                      'IFUSLICER, MSA, OTE, WAVELENGTHRANGE changing '
+                      'handling of various EXP_TYPE.'],
+                     ['2016-04-30 10:49:00',
+                      'jwst_0175.pmap',
+                      'Hand edited to add FGS, MIRI, NIRISS, NIRCAM types '
+                      'ifufore, ifupost, ifuslicer as N/A. pmap only.   '
+                      'Defined EXP_TYPE=MIR_IMAGE as N/A for MIRI '
+                      'EXTRACT1D. Delivery of Combined PHOTOM file for '
+                      'MIRI Imager from CDP5. Delivery Dummy NIRSpec FLAT '
+                      'reference files for MOS data.  Redefined USEAFTER '
+                      'for MIRI FLAT SLITLESSPRISM cases as 2013-09-26.  '
+                      'Added READPATT as a matching parameter for NIRSPEC '
+                      'DARK per jira-crds-19 defining missing values of '
+                      'READPATT in early files as N/A.  Added MIRI FLAT '
+                      'SLITLESSPRISM references back into rmap.'],
+                     ['2016-04-29 16:14:39',
+                      'jwst_0167.pmap',
+                      'Reverted operational context from 175 to 167 '
+                      'following accidental activation of 175 prior to '
+                      'sufficient testing.'],
+                     ['2016-04-29 16:09:58',
+                      'jwst_0175.pmap',
+                      'Updated edit context to jwst_0175.pmap following '
+                      'manual imap and pmap edits which added but did not '
+                      'generate a context.'],
+                     ['2016-04-20 09:04:16',
                       'jwst_0167.pmap',
                       'Correction to FGS DARK matching.   NIRSPEC imaging '
                       'FLATs.   NIRSPEC MOS REFPIX references.  Defined '
@@ -186,10 +234,10 @@
                      ['2012-09-06 00:00:00',
                       'jwst.pmap',
                       'Bootstrap mappings']],
- 'crds_version': {'rev': 'cc9b825', 'str': '6.0.0', 'svnurl': '/'},
- 'edit_context': 'jwst_0173.pmap',
+ 'crds_version': {'rev': '54766da', 'str': '6.0.0', 'svnurl': '/'},
+ 'edit_context': 'jwst_0184.pmap',
  'force_remote_mode': False,
- 'last_synced': '2016-04-29 11:53:01.038862',
+ 'last_synced': '2016-05-06 11:23:28.721754',
  'mapping_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/mappings/jwst/'},
  'mappings': ['jwst.pmap',
               'jwst_0000.pmap',
@@ -358,6 +406,17 @@
               'jwst_0171.pmap',
               'jwst_0172.pmap',
               'jwst_0173.pmap',
+              'jwst_0174.pmap',
+              'jwst_0175.pmap',
+              'jwst_0176.pmap',
+              'jwst_0177.pmap',
+              'jwst_0178.pmap',
+              'jwst_0179.pmap',
+              'jwst_0180.pmap',
+              'jwst_0181.pmap',
+              'jwst_0182.pmap',
+              'jwst_0183.pmap',
+              'jwst_0184.pmap',
               'jwst_fgs_0000.imap',
               'jwst_fgs_0001.imap',
               'jwst_fgs_0002.imap',
@@ -394,10 +453,16 @@
               'jwst_fgs_0034.imap',
               'jwst_fgs_0035.imap',
               'jwst_fgs_0036.imap',
+              'jwst_fgs_0037.imap',
+              'jwst_fgs_0038.imap',
+              'jwst_fgs_0039.imap',
+              'jwst_fgs_0040.imap',
               'jwst_fgs_amplifier_0000.rmap',
               'jwst_fgs_area_0001.rmap',
               'jwst_fgs_area_0002.rmap',
               'jwst_fgs_area_0003.rmap',
+              'jwst_fgs_area_0004.rmap',
+              'jwst_fgs_area_0005.rmap',
               'jwst_fgs_dark_0001.rmap',
               'jwst_fgs_dark_0002.rmap',
               'jwst_fgs_dark_0003.rmap',
@@ -437,6 +502,8 @@
               'jwst_fgs_photom_0001.rmap',
               'jwst_fgs_photom_0002.rmap',
               'jwst_fgs_photom_0003.rmap',
+              'jwst_fgs_photom_0004.rmap',
+              'jwst_fgs_photom_0005.rmap',
               'jwst_fgs_readnoise_0000.rmap',
               'jwst_fgs_readnoise_0001.rmap',
               'jwst_fgs_readnoise_0002.rmap',
@@ -454,6 +521,7 @@
               'jwst_fgs_superbias_0004.rmap',
               'jwst_fgs_superbias_0005.rmap',
               'jwst_fgs_superbias_0006.rmap',
+              'jwst_fgs_superbias_0007.rmap',
               'jwst_miri.imap',
               'jwst_miri_0000.imap',
               'jwst_miri_0001.imap',
@@ -536,6 +604,9 @@
               'jwst_miri_0078.imap',
               'jwst_miri_0079.imap',
               'jwst_miri_0080.imap',
+              'jwst_miri_0081.imap',
+              'jwst_miri_0082.imap',
+              'jwst_miri_0083.imap',
               'jwst_miri_amplifier_0000.rmap',
               'jwst_miri_area_0001.rmap',
               'jwst_miri_area_0002.rmap',
@@ -563,6 +634,7 @@
               'jwst_miri_distortion_0009.rmap',
               'jwst_miri_distortion_0010.rmap',
               'jwst_miri_distortion_0011.rmap',
+              'jwst_miri_distortion_0012.rmap',
               'jwst_miri_drizpars_0000.rmap',
               'jwst_miri_drizpars_0001.rmap',
               'jwst_miri_extract1d_0001.rmap',
@@ -600,6 +672,7 @@
               'jwst_miri_flat_0019.rmap',
               'jwst_miri_flat_0020.rmap',
               'jwst_miri_flat_0021.rmap',
+              'jwst_miri_flat_0022.rmap',
               'jwst_miri_fringe_0001.rmap',
               'jwst_miri_fringe_0002.rmap',
               'jwst_miri_fringe_0003.rmap',
@@ -673,6 +746,7 @@
               'jwst_miri_regions_0010.rmap',
               'jwst_miri_regions_0011.rmap',
               'jwst_miri_regions_0012.rmap',
+              'jwst_miri_regions_0013.rmap',
               'jwst_miri_reset_0001.rmap',
               'jwst_miri_reset_0002.rmap',
               'jwst_miri_reset_0003.rmap',
@@ -698,6 +772,7 @@
               'jwst_miri_specwcs_0010.rmap',
               'jwst_miri_specwcs_0011.rmap',
               'jwst_miri_specwcs_0012.rmap',
+              'jwst_miri_specwcs_0013.rmap',
               'jwst_miri_straymask_0001.rmap',
               'jwst_miri_straymask_0002.rmap',
               'jwst_miri_straymask_0003.rmap',
@@ -712,6 +787,7 @@
               'jwst_miri_v2v3_0007.rmap',
               'jwst_miri_v2v3_0008.rmap',
               'jwst_miri_v2v3_0009.rmap',
+              'jwst_miri_v2v3_0010.rmap',
               'jwst_miri_wavelengthrange_0001.rmap',
               'jwst_miri_wavelengthrange_0002.rmap',
               'jwst_miri_wavelengthrange_0003.rmap',
@@ -719,6 +795,7 @@
               'jwst_miri_wavelengthrange_0006.rmap',
               'jwst_miri_wavelengthrange_0007.rmap',
               'jwst_miri_wavelengthrange_0008.rmap',
+              'jwst_miri_wavelengthrange_0009.rmap',
               'jwst_miri_wcsregions_0001.rmap',
               'jwst_miri_wcsregions_0002.rmap',
               'jwst_miri_wcsregions_0003.rmap',
@@ -766,6 +843,7 @@
               'jwst_nircam_0044.imap',
               'jwst_nircam_0045.imap',
               'jwst_nircam_0046.imap',
+              'jwst_nircam_0047.imap',
               'jwst_nircam_amplifier_0000.rmap',
               'jwst_nircam_area_0001.rmap',
               'jwst_nircam_area_0002.rmap',
@@ -883,12 +961,17 @@
               'jwst_niriss_0047.imap',
               'jwst_niriss_0048.imap',
               'jwst_niriss_0049.imap',
+              'jwst_niriss_0050.imap',
+              'jwst_niriss_0051.imap',
+              'jwst_niriss_0052.imap',
               'jwst_niriss_amplifier_0000.rmap',
               'jwst_niriss_area_0001.rmap',
               'jwst_niriss_area_0002.rmap',
               'jwst_niriss_area_0003.rmap',
               'jwst_niriss_area_0004.rmap',
               'jwst_niriss_area_0005.rmap',
+              'jwst_niriss_area_0007.rmap',
+              'jwst_niriss_area_0008.rmap',
               'jwst_niriss_dark_0000.rmap',
               'jwst_niriss_dark_0001.rmap',
               'jwst_niriss_dark_0002.rmap',
@@ -956,6 +1039,8 @@
               'jwst_niriss_photom_0005.rmap',
               'jwst_niriss_photom_0006.rmap',
               'jwst_niriss_photom_0007.rmap',
+              'jwst_niriss_photom_0009.rmap',
+              'jwst_niriss_photom_0010.rmap',
               'jwst_niriss_readnoise_0000.rmap',
               'jwst_niriss_readnoise_0001.rmap',
               'jwst_niriss_readnoise_0002.rmap',
@@ -1050,6 +1135,9 @@
               'jwst_nirspec_0068.imap',
               'jwst_nirspec_0069.imap',
               'jwst_nirspec_0070.imap',
+              'jwst_nirspec_0071.imap',
+              'jwst_nirspec_0072.imap',
+              'jwst_nirspec_0073.imap',
               'jwst_nirspec_amplifier_0000.rmap',
               'jwst_nirspec_area_0001.rmap',
               'jwst_nirspec_area_0002.rmap',
@@ -1063,6 +1151,8 @@
               'jwst_nirspec_camera_0006.rmap',
               'jwst_nirspec_camera_0007.rmap',
               'jwst_nirspec_camera_0008.rmap',
+              'jwst_nirspec_camera_0009.rmap',
+              'jwst_nirspec_camera_0010.rmap',
               'jwst_nirspec_collimator_0001.rmap',
               'jwst_nirspec_collimator_0002.rmap',
               'jwst_nirspec_collimator_0003.rmap',
@@ -1070,6 +1160,8 @@
               'jwst_nirspec_collimator_0006.rmap',
               'jwst_nirspec_collimator_0007.rmap',
               'jwst_nirspec_collimator_0008.rmap',
+              'jwst_nirspec_collimator_0009.rmap',
+              'jwst_nirspec_collimator_0010.rmap',
               'jwst_nirspec_dark_0000.rmap',
               'jwst_nirspec_dark_0001.rmap',
               'jwst_nirspec_dark_0002.rmap',
@@ -1087,6 +1179,8 @@
               'jwst_nirspec_disperser_0006.rmap',
               'jwst_nirspec_disperser_0007.rmap',
               'jwst_nirspec_disperser_0008.rmap',
+              'jwst_nirspec_disperser_0009.rmap',
+              'jwst_nirspec_disperser_0010.rmap',
               'jwst_nirspec_distortion_0001.rmap',
               'jwst_nirspec_distortion_0002.rmap',
               'jwst_nirspec_distortion_0003.rmap',
@@ -1112,6 +1206,8 @@
               'jwst_nirspec_fore_0006.rmap',
               'jwst_nirspec_fore_0007.rmap',
               'jwst_nirspec_fore_0008.rmap',
+              'jwst_nirspec_fore_0009.rmap',
+              'jwst_nirspec_fore_0010.rmap',
               'jwst_nirspec_fpa_0001.rmap',
               'jwst_nirspec_fpa_0002.rmap',
               'jwst_nirspec_fpa_0003.rmap',
@@ -1119,6 +1215,8 @@
               'jwst_nirspec_fpa_0006.rmap',
               'jwst_nirspec_fpa_0007.rmap',
               'jwst_nirspec_fpa_0008.rmap',
+              'jwst_nirspec_fpa_0009.rmap',
+              'jwst_nirspec_fpa_0010.rmap',
               'jwst_nirspec_gain_0000.rmap',
               'jwst_nirspec_gain_0001.rmap',
               'jwst_nirspec_gain_0002.rmap',
@@ -1129,6 +1227,15 @@
               'jwst_nirspec_gain_0008.rmap',
               'jwst_nirspec_gain_0009.rmap',
               'jwst_nirspec_gain_0010.rmap',
+              'jwst_nirspec_ifufore_0001.rmap',
+              'jwst_nirspec_ifufore_0002.rmap',
+              'jwst_nirspec_ifufore_0003.rmap',
+              'jwst_nirspec_ifupost_0001.rmap',
+              'jwst_nirspec_ifupost_0002.rmap',
+              'jwst_nirspec_ifupost_0003.rmap',
+              'jwst_nirspec_ifuslicer_0001.rmap',
+              'jwst_nirspec_ifuslicer_0002.rmap',
+              'jwst_nirspec_ifuslicer_0003.rmap',
               'jwst_nirspec_ipc_0000.rmap',
               'jwst_nirspec_ipc_0001.rmap',
               'jwst_nirspec_ipc_0003.rmap',
@@ -1158,6 +1265,8 @@
               'jwst_nirspec_msa_0006.rmap',
               'jwst_nirspec_msa_0007.rmap',
               'jwst_nirspec_msa_0008.rmap',
+              'jwst_nirspec_msa_0009.rmap',
+              'jwst_nirspec_msa_0010.rmap',
               'jwst_nirspec_ote_0001.rmap',
               'jwst_nirspec_ote_0002.rmap',
               'jwst_nirspec_ote_0003.rmap',
@@ -1165,6 +1274,8 @@
               'jwst_nirspec_ote_0006.rmap',
               'jwst_nirspec_ote_0007.rmap',
               'jwst_nirspec_ote_0008.rmap',
+              'jwst_nirspec_ote_0009.rmap',
+              'jwst_nirspec_ote_0010.rmap',
               'jwst_nirspec_photom.rmap',
               'jwst_nirspec_photom_0000.rmap',
               'jwst_nirspec_photom_0001.rmap',
@@ -1217,11 +1328,13 @@
               'jwst_nirspec_wavelengthrange_0005.rmap',
               'jwst_nirspec_wavelengthrange_0006.rmap',
               'jwst_nirspec_wavelengthrange_0007.rmap',
-              'jwst_nirspec_wavelengthrange_0008.rmap'],
+              'jwst_nirspec_wavelengthrange_0008.rmap',
+              'jwst_nirspec_wavelengthrange_0009.rmap',
+              'jwst_nirspec_wavelengthrange_0010.rmap'],
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 5000,
  'observatory': 'jwst',
- 'operational_context': 'jwst_0167.pmap',
+ 'operational_context': 'jwst_0183.pmap',
  'reference_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/references/jwst/'},
  'server': 'https://jwst-crds.stsci.edu',
  'status': 'server'}
