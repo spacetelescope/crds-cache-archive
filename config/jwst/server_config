@@ -1,83 +1,63 @@
-{'bad_files': 'jwst_miri_area_0001.fits jwst_miri_dark_0008.rmap '
-              'jwst_miri_flat_0002.rmap jwst_miri_flat_0003.rmap',
+{'bad_files': 'jwst_miri_area_0001.fits jwst_miri_dark_0008.rmap jwst_miri_flat_0002.rmap jwst_miri_flat_0003.rmap',
  'bad_files_list': ['jwst_miri_area_0001.fits',
                     'jwst_miri_dark_0008.rmap',
                     'jwst_miri_flat_0002.rmap',
                     'jwst_miri_flat_0003.rmap'],
  'connected': True,
- 'context_history': [['2017-02-02 11:00:05',
+ 'context_history': [['2017-04-19 15:13:58',
+                      'jwst_0319.pmap',
+                      'New MIRI RESOL, CUBEPAR types.\r\nUpdates MIRI MRS PHOTOM, AREA, NIRCAM PHOTOM.'],
+                     ['2017-02-02 11:00:05',
                       'jwst_0311.pmap',
                       'Removed NIRCAM FLATS 0000 and 0010 per Jira CRDS-96'],
                      ['2017-01-27 15:56:09',
                       'jwst_0310.pmap',
-                      'Demoted NIRCAM FLATs that matched on FILTER,PUPIL=ANY '
-                      'to N/A to remove conflict with more specific '
-                      'references.'],
+                      'Demoted NIRCAM FLATs that matched on FILTER,PUPIL=ANY to N/A to remove conflict with more specific references.'],
                      ['2017-01-27 13:56:43',
                       'jwst_0309.pmap',
-                      'New NIRCAM pixel flats.   NIRCAM SSB and ReDCaT team '
-                      'request.'],
+                      'New NIRCAM pixel flats.   NIRCAM SSB and ReDCaT team request.'],
                      ['2017-01-17 16:16:56',
                       'jwst_0307.pmap',
-                      'Updated MIRI AREA, LINEARITY, FRINGE, WCSREGIONS.  '
-                      'First context change post-build-7.'],
+                      'Updated MIRI AREA, LINEARITY, FRINGE, WCSREGIONS.  First context change post-build-7.'],
                      ['2016-12-09 11:06:08',
                       'jwst_0303.pmap',
-                      'Updated SYSTEM CALVER reference for final B7 cal code '
-                      'versions 0.7.0rc6, rc7, rc8, rc9,  identical with rc5.'],
+                      'Updated SYSTEM CALVER reference for final B7 cal code versions 0.7.0rc6, rc7, rc8, rc9,  identical with rc5.'],
                      ['2016-12-08 16:32:31',
                       'jwst_0302.pmap',
-                      'Modified MIRI FLAT rmap to reclassify remaining cases '
-                      'of READPATT=FAST to apply to FASTGRPAVG as well per '
-                      'Jira CRDS-77.'],
+                      'Modified MIRI FLAT rmap to reclassify remaining cases of READPATT=FAST to apply to FASTGRPAVG as well per Jira CRDS-77.'],
                      ['2016-12-08 12:24:52',
                       'jwst_0301.pmap',
-                      'Reverted NIRSPEC REFPIX based on problems with CDP4 '
-                      'related references.'],
+                      'Reverted NIRSPEC REFPIX based on problems with CDP4 related references.'],
                      ['2016-12-08 10:42:17',
                       'jwst_0300.pmap',
-                      'Changed NIRSPEC PATHLOSS rmap to handle NRS_BRIGHTOBJ '
-                      'same as NRS_FIXEDSLIT and make  NRS_AUTOWAVE N/A.'],
+                      'Changed NIRSPEC PATHLOSS rmap to handle NRS_BRIGHTOBJ same as NRS_FIXEDSLIT and make  NRS_AUTOWAVE N/A.'],
                      ['2016-12-07 20:08:33',
                       'jwst_0299.pmap',
-                      'Manual pmap update for adding modified FGS, MIRI, '
-                      'NIRCAM, NIRISS PATHLOSS as N/A.'],
+                      'Manual pmap update for adding modified FGS, MIRI, NIRCAM, NIRISS PATHLOSS as N/A.'],
                      ['2016-12-07 16:37:55',
                       'jwst_0298.pmap',
-                      'Deliver updated RMAPs for superbias and extract1d. The '
-                      'Superbias had to change to allow for OR option for IRS2 '
-                      'readout. The Extract1d rmap to resolve a conflict with '
-                      'the latest delivery.'],
+                      'Deliver updated RMAPs for superbias and extract1d. The Superbias had to change to allow for OR option for IRS2 readout. The Extract1d rmap to resolve a conflict with the latest delivery.'],
                      ['2016-12-07 16:24:11',
                       'jwst_0297.pmap',
-                      'Delivery of updated NIRSpec Superbias to correct and '
-                      'issues with the SUBSIZE values. Also an updated  '
-                      'Extract1d file to be used with extract_1d step for '
-                      'NRS_BRIGHTOBJ data'],
+                      'Delivery of updated NIRSpec Superbias to correct and issues with the SUBSIZE values. Also an updated  Extract1d file to be used with extract_1d step for NRS_BRIGHTOBJ data'],
                      ['2016-12-07 16:08:07',
                       'jwst_0296.pmap',
                       'Fixed READPATT in NIRSPEC MASK and REFPIX RMAPs.'],
                      ['2016-12-07 15:37:21',
                       'jwst_0295.pmap',
-                      'Delivery NIRSpec REFPIX files for IRS2 mode. These are '
-                      'produced by the IDTs and delivered with CDP4'],
+                      'Delivery NIRSpec REFPIX files for IRS2 mode. These are produced by the IDTs and delivered with CDP4'],
                      ['2016-12-07 15:14:18',
                       'jwst_0294.pmap',
-                      'Updated NIRSPEC SUPERBIAS rmap to recategorize new '
-                      'superbias files as REAPATT = NRSIRS2 or NRSIRS2RAPID '
-                      'replacing prior files in that category.'],
+                      'Updated NIRSPEC SUPERBIAS rmap to recategorize new superbias files as REAPATT = NRSIRS2 or NRSIRS2RAPID replacing prior files in that category.'],
                      ['2016-12-07 14:35:07',
                       'jwst_0293.pmap',
-                      'NIRSPEC updated the existing IRS2 superbias files to '
-                      'have SUBSIZE=2048 in accordance with what the pipeline '
-                      'expects.'],
+                      'NIRSPEC updated the existing IRS2 superbias files to have SUBSIZE=2048 in accordance with what the pipeline expects.'],
                      ['2016-12-07 10:28:37',
                       'jwst_0292.pmap',
                       'Updated SYSTEM CALVER rmap for cal code 0.7.0rc5'],
                      ['2016-12-06 18:13:36',
                       'jwst_0291.pmap',
-                      'Modified NIRSPEC REFPIX rmap instances of ALLIRS2 to '
-                      'NRSIRS2 or NRSIRS2RAPID.'],
+                      'Modified NIRSPEC REFPIX rmap instances of ALLIRS2 to NRSIRS2 or NRSIRS2RAPID.'],
                      ['2016-12-05 13:28:58',
                       'jwst_0290.pmap',
                       'New NIRSpec ALLSLITS superbias reference files.'],
@@ -89,296 +69,172 @@
                       'SYSTEM CALVER reference for Build-7 rc4'],
                      ['2016-12-01 19:22:14',
                       'jwst_0287.pmap',
-                      'First NIRSPEC PATHLOSS references,  IFU, MSASPEC, '
-                      'FIXEDSLIT.'],
+                      'First NIRSPEC PATHLOSS references,  IFU, MSASPEC, FIXEDSLIT.'],
                      ['2016-11-28 14:11:25',
                       'jwst_0285.pmap',
-                      'Changed FGS DISTORTION USEAFTER from 2016-01-01 to '
-                      '2015-06-01 per CRDS Trac-462 and feedback from SDP on '
-                      '2016-11-21.'],
+                      'Changed FGS DISTORTION USEAFTER from 2016-01-01 to 2015-06-01 per CRDS Trac-462 and feedback from SDP on 2016-11-21.'],
                      ['2016-11-28 14:01:50',
                       'jwst_0284.pmap',
-                      'Modified NIRCAM DARK USEAFTER from 2015-10-01 to '
-                      '2015-06-01 per CRDS Trac-462 and test feedback from SDP '
-                      'on 2016-11-21.'],
+                      'Modified NIRCAM DARK USEAFTER from 2015-10-01 to 2015-06-01 per CRDS Trac-462 and test feedback from SDP on 2016-11-21.'],
                      ['2016-11-28 12:49:59',
                       'jwst_0283.pmap',
                       'New MIRI MASK files.'],
                      ['2016-11-21 14:49:08',
                       'jwst_0282.pmap',
-                      'Modified NIRSPEC EXTRACT1D rmap to classify '
-                      'NRS_BRIGHTOBJ like NRS_FIXEDSLIT.'],
+                      'Modified NIRSPEC EXTRACT1D rmap to classify NRS_BRIGHTOBJ like NRS_FIXEDSLIT.'],
                      ['2016-11-21 13:28:08',
                       'jwst_0281.pmap',
-                      'Updated NIRSPEC AREA USEAFTER to 2014-07-01 per Jira '
-                      'JP-104.'],
+                      'Updated NIRSPEC AREA USEAFTER to 2014-07-01 per Jira JP-104.'],
                      ['2016-11-21 09:57:37',
                       'jwst_0280.pmap',
-                      'Removed oldest NIRISS SATURATION reference. Reapplied '
-                      'remaining reference to all test data by changing '
-                      'USEAFTER to 2014-07-01 per Jira CRDS-81.  Mapped NIRISS '
-                      'DISTORTION AMI WCS to same references as IMAGE per Jira '
-                      'CRDS-56.'],
+                      'Removed oldest NIRISS SATURATION reference. Reapplied remaining reference to all test data by changing USEAFTER to 2014-07-01 per Jira CRDS-81.  Mapped NIRISS DISTORTION AMI WCS to same references as IMAGE per Jira CRDS-56.'],
                      ['2016-11-17 10:04:14',
                       'jwst_0278.pmap',
                       'Updated SYSTEM CALVER to support 0.7.0rc3.'],
                      ['2016-11-16 18:29:25',
                       'jwst_0277.pmap',
-                      'MIRI WCS FILTEROFFSET and DISTORTION replacements for '
-                      'MIR_IMAGE cases.'],
+                      'MIRI WCS FILTEROFFSET and DISTORTION replacements for MIR_IMAGE cases.'],
                      ['2016-11-16 17:07:14',
                       'jwst_0275.pmap',
-                      'Mapped NIRSPEC DARK NRSRAPID cases to NRS+NRSRAPID per '
-                      'Jira CRDS-80.'],
+                      'Mapped NIRSPEC DARK NRSRAPID cases to NRS+NRSRAPID per Jira CRDS-80.'],
                      ['2016-11-16 16:56:35',
                       'jwst_0274.pmap',
-                      'Dummy NIRISS DARK files for NRS2 SUB512 and SUB32 for '
-                      'NRSRAPID.'],
+                      'Dummy NIRISS DARK files for NRS2 SUB512 and SUB32 for NRSRAPID.'],
                      ['2016-11-16 16:13:44',
                       'jwst_0273.pmap',
-                      'NIRISS DARK,  remove NIS+NISRAPID for SUBARRAY=FULL,  '
-                      'Jira CRDS-79.'],
+                      'NIRISS DARK,  remove NIS+NISRAPID for SUBARRAY=FULL,  Jira CRDS-79.'],
                      ['2016-11-16 15:57:49',
                       'jwst_0272.pmap',
                       'Updates for NIRSPEC WCS and NIRISS DARK, Jira CRDS-79.'],
                      ['2016-11-15 17:04:00',
                       'jwst_0270.pmap',
-                      'FGS MASK USEAFTER adjustment to 2014-07-01 per Jira '
-                      'JP-94.'],
+                      'FGS MASK USEAFTER adjustment to 2014-07-01 per Jira JP-94.'],
                      ['2016-11-15 14:21:12',
                       'jwst_0269.pmap',
-                      'To deliver new FGS reference files for subarrays and '
-                      'read patterns and to deliver corrected reference '
-                      'files.'],
+                      'To deliver new FGS reference files for subarrays and read patterns and to deliver corrected reference files.'],
                      ['2016-11-14 17:31:21',
                       'jwst_0268.pmap',
-                      'MIRI WCS MIR_CORONCAL + MIR_LYOT for EXTRACT1D and '
-                      'WCSREGIONS per Jira CRDS-57.'],
+                      'MIRI WCS MIR_CORONCAL + MIR_LYOT for EXTRACT1D and WCSREGIONS per Jira CRDS-57.'],
                      ['2016-11-14 14:56:32',
                       'jwst_0267.pmap',
-                      'MIRI DARK MIRIFUSHORT USEAFTER, MIRI DARK FASTGRPAVG\r\n'
-                      '\r\n'
-                      'NIRSPEC NRS_BRIGHTOBJ support'],
+                      'MIRI DARK MIRIFUSHORT USEAFTER, MIRI DARK FASTGRPAVG\r\n\r\nNIRSPEC NRS_BRIGHTOBJ support'],
                      ['2016-11-14 09:33:48',
                       'jwst_0264.pmap',
                       'New NIRCAM subarray darks.'],
                      ['2016-11-12 08:17:59',
                       'jwst_0263.pmap',
-                      'Development largely in response to feedback from SDP on '
-                      'CV3 data,  some independent deliveries,  look at '
-                      'diffs.'],
+                      'Development largely in response to feedback from SDP on CV3 data,  some independent deliveries,  look at diffs.'],
                      ['2016-11-01 09:53:58',
                       'jwst_0237.pmap',
-                      'Added NIRSPEC DFLAT, FFLAT, SFLAT removed NIRSPEC '
-                      'FLAT.  Added support for FGS DISTORTION FGS_FOCUS.   '
-                      'Added NIRSPEC MSAOPER.'],
+                      'Added NIRSPEC DFLAT, FFLAT, SFLAT removed NIRSPEC FLAT.  Added support for FGS DISTORTION FGS_FOCUS.   Added NIRSPEC MSAOPER.'],
                      ['2016-10-17 13:33:27',
                       'jwst_0231.pmap',
-                      'New NIRISS SUPERBIAS,  MIRI FLATS,  NIRSPEC DFLAT + '
-                      'FFLAT + SFLAT,  SYSTEM CALVER support 0.6.0'],
+                      'New NIRISS SUPERBIAS,  MIRI FLATS,  NIRSPEC DFLAT + FFLAT + SFLAT,  SYSTEM CALVER support 0.6.0'],
                      ['2016-10-03 12:42:00',
                       'jwst_0223.pmap',
-                      'Since 204 --  additional files for MIRI CDP-6 DARKs, '
-                      'FLATs, READNOISE, RSCD.   Also adds SYSTEM CALVER and '
-                      'DATALVL s/w reference types.  Many NIRISS updates -- '
-                      'AREA, DISTORTION, PHOTOM, DARK, FLAT, IPC, GAIN, '
-                      'LINEARITY, READNOISE, SUPERBIAS, SATURATION.'],
+                      'Since 204 --  additional files for MIRI CDP-6 DARKs, FLATs, READNOISE, RSCD.   Also adds SYSTEM CALVER and DATALVL s/w reference types.  Many NIRISS updates -- AREA, DISTORTION, PHOTOM, DARK, FLAT, IPC, GAIN, LINEARITY, READNOISE, SUPERBIAS, SATURATION.'],
                      ['2016-08-24 19:06:19',
                       'jwst_0204.pmap',
-                      'Multiple FGS and NIRISS CV3 deliveries for numerous '
-                      'types.  NIRSPEC SATURATION useafter date correction.  '
-                      'Rmap fix for FGS,  SUBARRAY=FULL to SUBARRAY=GENERIC '
-                      'for  GAIN, LINEARITY, MASK, READNOISE, SUPERBIAS.   '
-                      'Added READPATT to FGS and NIRISS DARK lookups.'],
+                      'Multiple FGS and NIRISS CV3 deliveries for numerous types.  NIRSPEC SATURATION useafter date correction.  Rmap fix for FGS,  SUBARRAY=FULL to SUBARRAY=GENERIC for  GAIN, LINEARITY, MASK, READNOISE, SUPERBIAS.   Added READPATT to FGS and NIRISS DARK lookups.'],
                      ['2016-08-03 14:17:10',
                       'jwst_0197.pmap',
                       'Updated NIRSPEC DISPERSER, PHOTOM and NIRCAM DARKs.'],
                      ['2016-06-01 13:53:32',
                       'jwst_0192.pmap',
-                      'Delivery of new NIRSPEC FPA reference files to correct '
-                      'the extraction location of NRS2 spectra.'],
+                      'Delivery of new NIRSPEC FPA reference files to correct the extraction location of NRS2 spectra.'],
                      ['2016-05-18 09:40:19',
                       'jwst_0191.pmap',
-                      'Delivered MIRI CDP5 files and corrections to several '
-                      'MIRI RMAPs to correct issues with selection of the '
-                      'reference files. Also, updated NIRSpec IMAP.'],
+                      'Delivered MIRI CDP5 files and corrections to several MIRI RMAPs to correct issues with selection of the reference files. Also, updated NIRSpec IMAP.'],
                      ['2016-05-05 09:44:40',
                       'jwst_0183.pmap',
-                      'Delivery of new MIRI MRS distortion, regions, specwcs, '
-                      'v2v3 and wavelengthrange reference files derived from '
-                      'CDP5 data and converted to the right format by SSB. '
-                      'Delivery of new NIRSpec camera, collimator, disperser, '
-                      'fore, fpa, ifufore, ifupost, ifuslicer, msa, ote, and '
-                      'wavelengthrange reference files derived from CDP4.  '
-                      'Delivery of FGS pixel area maps and photometric '
-                      'reference files. This delivery corrects the headers of '
-                      'the pixel area files.  Delivery of NIRISS pixel area '
-                      'and photom reference files. The pixel area only '
-                      'corrects header keywords. Changed READPATT=ANY to '
-                      'READPATT=N/A for FGS SUPERBIAS.  Delivery FGS rmaps for '
-                      'photom and pixel area reference files to remove old '
-                      'files that had a different useafter date and were not '
-                      'replaced with the last delivery when they should have.  '
-                      'Delivery of NIRISS rmaps for pixel area map and photom '
-                      'to remove old file that had different useafter and that '
-                      'were not removed with the new delivery.  Changes to '
-                      'NIRSPEC CAMERA, COLLIMATOR, DISPERSER, FORE, FPA, '
-                      'IFUFORE, IFUPOST, IFUSLICER, MSA, OTE, WAVELENGTHRANGE '
-                      'changing handling of various EXP_TYPE.'],
+                      'Delivery of new MIRI MRS distortion, regions, specwcs, v2v3 and wavelengthrange reference files derived from CDP5 data and converted to the right format by SSB. Delivery of new NIRSpec camera, collimator, disperser, fore, fpa, ifufore, ifupost, ifuslicer, msa, ote, and wavelengthrange reference files derived from CDP4.  Delivery of FGS pixel area maps and photometric reference files. This delivery corrects the headers of the pixel area files.  Delivery of NIRISS pixel area and photom reference files. The pixel area only corrects header keywords. Changed READPATT=ANY to READPATT=N/A for FGS SUPERBIAS.  Delivery FGS rmaps for photom and pixel area reference files to remove old files that had a different useafter date and were not replaced with the last delivery when they should have.  Delivery of NIRISS rmaps for pixel area map and photom to remove old file that had different useafter and that were not removed with the new delivery.  Changes to NIRSPEC CAMERA, COLLIMATOR, DISPERSER, FORE, FPA, IFUFORE, IFUPOST, IFUSLICER, MSA, OTE, WAVELENGTHRANGE changing handling of various EXP_TYPE.'],
                      ['2016-04-30 10:49:00',
                       'jwst_0175.pmap',
-                      'Hand edited to add FGS, MIRI, NIRISS, NIRCAM types '
-                      'ifufore, ifupost, ifuslicer as N/A. pmap only.   '
-                      'Defined EXP_TYPE=MIR_IMAGE as N/A for MIRI EXTRACT1D. '
-                      'Delivery of Combined PHOTOM file for MIRI Imager from '
-                      'CDP5. Delivery Dummy NIRSpec FLAT reference files for '
-                      'MOS data.  Redefined USEAFTER for MIRI FLAT '
-                      'SLITLESSPRISM cases as 2013-09-26.  Added READPATT as a '
-                      'matching parameter for NIRSPEC DARK per jira-crds-19 '
-                      'defining missing values of READPATT in early files as '
-                      'N/A.  Added MIRI FLAT SLITLESSPRISM references back '
-                      'into rmap.'],
+                      'Hand edited to add FGS, MIRI, NIRISS, NIRCAM types ifufore, ifupost, ifuslicer as N/A. pmap only.   Defined EXP_TYPE=MIR_IMAGE as N/A for MIRI EXTRACT1D. Delivery of Combined PHOTOM file for MIRI Imager from CDP5. Delivery Dummy NIRSpec FLAT reference files for MOS data.  Redefined USEAFTER for MIRI FLAT SLITLESSPRISM cases as 2013-09-26.  Added READPATT as a matching parameter for NIRSPEC DARK per jira-crds-19 defining missing values of READPATT in early files as N/A.  Added MIRI FLAT SLITLESSPRISM references back into rmap.'],
                      ['2016-04-29 16:14:39',
                       'jwst_0167.pmap',
-                      'Reverted operational context from 175 to 167 following '
-                      'accidental activation of 175 prior to sufficient '
-                      'testing.'],
+                      'Reverted operational context from 175 to 167 following accidental activation of 175 prior to sufficient testing.'],
                      ['2016-04-29 16:09:58',
                       'jwst_0175.pmap',
-                      'Updated edit context to jwst_0175.pmap following manual '
-                      'imap and pmap edits which added but did not generate a '
-                      'context.'],
+                      'Updated edit context to jwst_0175.pmap following manual imap and pmap edits which added but did not generate a context.'],
                      ['2016-04-20 09:04:16',
                       'jwst_0167.pmap',
-                      'Correction to FGS DARK matching.   NIRSPEC imaging '
-                      'FLATs.   NIRSPEC MOS REFPIX references.  Defined '
-                      'missing types for ALL instruments as N/A.   Defined '
-                      'MIRI imaging FRINGE and STRAYMASK as N/A modes.'],
+                      'Correction to FGS DARK matching.   NIRSPEC imaging FLATs.   NIRSPEC MOS REFPIX references.  Defined missing types for ALL instruments as N/A.   Defined MIRI imaging FRINGE and STRAYMASK as N/A modes.'],
                      ['2016-04-08 18:29:46',
                       'jwst_0161.pmap',
-                      'Delivery of NIRSpec Dark reference files delivered with '
-                      'CDP2'],
+                      'Delivery of NIRSpec Dark reference files delivered with CDP2'],
                      ['2016-04-07 14:44:57',
                       'jwst_0160.pmap',
-                      'Global switch to USEAFTER support for all reference '
-                      'types.   Many build 6 deliveries,  see context diffs.'],
+                      'Global switch to USEAFTER support for all reference types.   Many build 6 deliveries,  see context diffs.'],
                      ['2016-02-16 17:30:28',
                       'jwst_0126.pmap',
-                      'Corrected NIRSPEC LINEARITY SUBARRAY=FULL values to '
-                      'GENERIC.   CRDS #377'],
+                      'Corrected NIRSPEC LINEARITY SUBARRAY=FULL values to GENERIC.   CRDS #377'],
                      ['2016-02-15 13:02:00',
                       'jwst_0125.pmap',
-                      'Extensive build-6 development updates,  difference '
-                      'jwst_105.pmap to jwst_125.pmap for more details.'],
+                      'Extensive build-6 development updates,  difference jwst_105.pmap to jwst_125.pmap for more details.'],
                      ['2015-11-18 12:58:13',
                       'jwst_0105.pmap',
-                      'Declared various EXP_TYPE as N/A for 15 WCS types for '
-                      'MIRI, NIRCAM, NIRSPEC. Replacement MIRI distortion '
-                      'references for CRDS #238.'],
+                      'Declared various EXP_TYPE as N/A for 15 WCS types for MIRI, NIRCAM, NIRSPEC. Replacement MIRI distortion references for CRDS #238.'],
                      ['2015-11-04 14:02:24',
                       'jwst_0101.pmap',
-                      'Updated operational context for NIRCAM '
-                      'WAVELENGTHRANGE.'],
+                      'Updated operational context for NIRCAM WAVELENGTHRANGE.'],
                      ['2015-10-31 17:41:40',
                       'jwst_0100.pmap',
                       'Defined V2V3 is N/A for NIRSPEC.'],
                      ['2015-10-31 11:01:45',
                       'jwst_0099.pmap',
-                      'Corrected WCS rmaps for parameter value typos detected '
-                      'by certify'],
+                      'Corrected WCS rmaps for parameter value typos detected by certify'],
                      ['2015-10-31 07:50:49',
                       'jwst_0098.pmap',
-                      'Explicitly declared some EXP_TYPE values as N/A for '
-                      'some WCS types of all instruments except FGS.'],
+                      'Explicitly declared some EXP_TYPE values as N/A for some WCS types of all instruments except FGS.'],
                      ['2015-10-30 14:48:14',
                       'jwst_0097.pmap',
-                      'Manual PMAP update for preceding WCS IMAP manual '
-                      'changes to declare types N/A.'],
+                      'Manual PMAP update for preceding WCS IMAP manual changes to declare types N/A.'],
                      ['2015-10-30 14:46:35',
                       'jwst_0096.pmap',
-                      'Manual PMAP update for preceding WCS IMAP manual '
-                      'changes to declare types N/A.'],
+                      'Manual PMAP update for preceding WCS IMAP manual changes to declare types N/A.'],
                      ['2015-10-30 11:38:16',
                       'jwst_0095.pmap',
-                      'First round addition of ASDF WCS references and '
-                      'EXTRACT1D files.'],
+                      'First round addition of ASDF WCS references and EXTRACT1D files.'],
                      ['2015-10-21 17:04:45',
                       'jwst_0084.pmap',
                       'First EXTRACT1D references for MIRI, NIRISS, NIRSPEC.'],
                      ['2015-10-02 11:28:26',
                       'jwst_0082.pmap',
-                      'NIRSpec flat-field reference files from the instrument '
-                      'team to support the Build 5 pipeline.'],
+                      'NIRSpec flat-field reference files from the instrument team to support the Build 5 pipeline.'],
                      ['2015-09-30 16:17:55',
                       'jwst_0081.pmap',
-                      'Added jwst_miri_regions_0006.fits back to rules,  '
-                      'MIRIFUSHORT SHORT case accidentally deleted during '
-                      'parameter schema change.'],
+                      'Added jwst_miri_regions_0006.fits back to rules,  MIRIFUSHORT SHORT case accidentally deleted during parameter schema change.'],
                      ['2015-09-16 09:18:20',
                       'jwst_0080.pmap',
-                      'Added  DETECTOR=MIRFULONG  BAND=N/A  REFERENCE=N/A for '
-                      'MIRI STRAYMASK'],
+                      'Added  DETECTOR=MIRFULONG  BAND=N/A  REFERENCE=N/A for MIRI STRAYMASK'],
                      ['2015-09-11 09:51:40',
                       'jwst_0079.pmap',
-                      'Added PIXEL AREA rmaps and references for MIRI, NIRCAM, '
-                      'NIRSPEC.  Augmented AREA rmap for NIRISS.'],
+                      'Added PIXEL AREA rmaps and references for MIRI, NIRCAM, NIRSPEC.  Augmented AREA rmap for NIRISS.'],
                      ['2015-08-10 10:02:17',
                       'jwst_0074.pmap',
-                      'Removed FILTER as matching parameter from SATURATION, '
-                      'READNOISE, MASK, LINEARITY, GAIN, and DARK for all '
-                      'instruments.   First suite of real references for '
-                      'NIRISS, minus ILLUM FLAT. bad pixel mask, bias, gain, '
-                      'pixel flat, ipc, linearity, photometric calibration, '
-                      'pixel area, read noise, saturation. Omitted dark since '
-                      'submitted earlier out of sequence, identical, already '
-                      'jwst_niriss_dark_0005.fits.   First suite of real '
-                      'references for NIRISS, minus ILLUM FLAT. bad pixel '
-                      'mask, bias, gain, pixel flat, ipc, linearity, '
-                      'photometric calibration, pixel area, read noise, '
-                      'saturation.'],
+                      'Removed FILTER as matching parameter from SATURATION, READNOISE, MASK, LINEARITY, GAIN, and DARK for all instruments.   First suite of real references for NIRISS, minus ILLUM FLAT. bad pixel mask, bias, gain, pixel flat, ipc, linearity, photometric calibration, pixel area, read noise, saturation. Omitted dark since submitted earlier out of sequence, identical, already jwst_niriss_dark_0005.fits.   First suite of real references for NIRISS, minus ILLUM FLAT. bad pixel mask, bias, gain, pixel flat, ipc, linearity, photometric calibration, pixel area, read noise, saturation.'],
                      ['2015-07-15 10:50:58',
                       'jwst_0063.pmap',
                       'Updated context to latest prefetch N/A related tweaks.'],
                      ['2015-06-28 19:39:54',
                       'jwst_0061.pmap',
-                      'Changes to designate some WCS types as N/A,  see '
-                      'context differences for more information.'],
+                      'Changes to designate some WCS types as N/A,  see context differences for more information.'],
                      ['2015-05-05 08:33:44',
                       'jwst_0059.pmap',
-                      'Added SUPERBIAS type support and initial stub '
-                      'references for FGS, NIRISS, NIRCAM, NIRSPEC.'],
+                      'Added SUPERBIAS type support and initial stub references for FGS, NIRISS, NIRCAM, NIRSPEC.'],
                      ['2015-04-13 08:10:26',
                       'jwst_0053.pmap',
-                      'Level-2a files from the MIRI IDT CDP-3 delivery from '
-                      'November, 2014.\r\n'
-                      'Added MIRI references from 03-29-2015, new FLAT cases, '
-                      'replacement PHOTOM, FRINGE, STRAYMASK files.\r\n'
-                      'Changed DETECTOR=NIRISS to DETECTOR=NIS.   Added '
-                      'READPATT as MIRI READNOISE matching parameter.\r\n'
-                      'Modified MIRI SUBARRAY handling to use GENERIC, FULL, '
-                      'and specific SUBARRAY values.\r\n'
-                      'Modified MIRI FLAT to consistently use ANY and to '
-                      'remove obsolete references 0029 and 0030.'],
+                      'Level-2a files from the MIRI IDT CDP-3 delivery from November, 2014.\r\nAdded MIRI references from 03-29-2015, new FLAT cases, replacement PHOTOM, FRINGE, STRAYMASK files.\r\nChanged DETECTOR=NIRISS to DETECTOR=NIS.   Added READPATT as MIRI READNOISE matching parameter.\r\nModified MIRI SUBARRAY handling to use GENERIC, FULL, and specific SUBARRAY values.\r\nModified MIRI FLAT to consistently use ANY and to remove obsolete references 0029 and 0030.'],
                      ['2015-02-17 11:17:39',
                       'jwst_0043.pmap',
-                      'Added NIRISS THROUGHPUT references for AMI modes F277W, '
-                      'F380M, F430M, F480M.   Build-4 first draft context.'],
+                      'Added NIRISS THROUGHPUT references for AMI modes F277W, F380M, F430M, F480M.   Build-4 first draft context.'],
                      ['2015-01-12 14:23:12',
                       'jwst_0039.pmap',
-                      'Jira tickets JP-16, 17, 19, 20, 25, 30.  Generally drop '
-                      'FILTER from several MIRI types and add SUBARRAY and '
-                      'SUBARRAY=N/A for existing references except MIRI DARK.  '
-                      'Added new MIRI DARK references explicitly covering '
-                      'SUBARRAY modes,  removed most old DARKs.'],
+                      'Jira tickets JP-16, 17, 19, 20, 25, 30.  Generally drop FILTER from several MIRI types and add SUBARRAY and SUBARRAY=N/A for existing references except MIRI DARK.  Added new MIRI DARK references explicitly covering SUBARRAY modes,  removed most old DARKs.'],
                      ['2014-11-25 10:51:09',
                       'jwst_0036.pmap',
-                      'FGS DETECTOR value switch from FGS1/FGS2 to '
-                      'GUIDER1/GUIDER2.\r\n'
-                      '\r\n'
-                      'Added rmap_relevance expressions for MIRI and NIRSPEC '
-                      'WCS types to generate N/A for unsupported modes instead '
-                      'of raising exceptions which crashed reference '
-                      'prefetch.'],
+                      'FGS DETECTOR value switch from FGS1/FGS2 to GUIDER1/GUIDER2.\r\n\r\nAdded rmap_relevance expressions for MIRI and NIRSPEC WCS types to generate N/A for unsupported modes instead of raising exceptions which crashed reference prefetch.'],
                      ['2014-09-25 18:30:27',
                       'jwst_0034.pmap',
                       'Build-3 References'],
@@ -387,27 +243,22 @@
                       'Replaced PHOTOM references for NIRSPEC and NIRISS.'],
                      ['2014-07-18 11:34:48',
                       'jwst_0023.pmap',
-                      'First MIRI PHOTOM reference for MIRIMAGE detector with '
-                      'real data.'],
+                      'First MIRI PHOTOM reference for MIRIMAGE detector with real data.'],
                      ['2014-07-08 16:09:39',
                       'jwst_0022.pmap',
-                      'Multiple MIRI FLAT changes, new references, added '
-                      'SUBARRAY as matching parameter.  See diffs.'],
+                      'Multiple MIRI FLAT changes, new references, added SUBARRAY as matching parameter.  See diffs.'],
                      ['2014-03-26 08:49:12',
                       'jwst_0013.pmap',
-                      'New context jwst_0013.pmap adds Interpixel Capacitance '
-                      'references for all instruments.'],
+                      'New context jwst_0013.pmap adds Interpixel Capacitance references for all instruments.'],
                      ['2014-03-19 10:51:19',
                       'jwst_0012.pmap',
-                      'Updated for META.INSTRUMENT.TYPE switch to '
-                      'META.INSTRUMENT.NAME\r\n'
-                      'New linearity files for all instruments\r\n'
-                      'New saturation files and rmaps for all instruments'],
-                     ['2013-11-25 09:00:03', 'jwst_0005.pmap', 'set by system'],
+                      'Updated for META.INSTRUMENT.TYPE switch to META.INSTRUMENT.NAME\r\nNew linearity files for all instruments\r\nNew saturation files and rmaps for all instruments'],
+                     ['2013-11-25 09:00:03',
+                      'jwst_0005.pmap',
+                      'set by system'],
                      ['2013-09-04 00:00:00',
                       'jwst_0003.pmap',
-                      'Absolute Calibration (photom) additions and '
-                      'replacements.'],
+                      'Absolute Calibration (photom) additions and replacements.'],
                      ['2013-07-31 00:00:00',
                       'jwst_0002.pmap',
                       'Dark and Mask files.'],
@@ -416,15 +267,14 @@
                       'Linearity and dark files.'],
                      ['2012-09-27 00:00:00',
                       'jwst_0000.pmap',
-                      'First rules and references from jwst_gentools stub '
-                      'development cloning.'],
+                      'First rules and references from jwst_gentools stub development cloning.'],
                      ['2012-09-06 00:00:00',
                       'jwst.pmap',
                       'Bootstrap mappings']],
- 'crds_version': {'rev': '09a97cc', 'str': '7.1.1', 'svnurl': '/'},
- 'edit_context': 'jwst_0314.pmap',
+ 'crds_version': {'rev': '8a2bb8a7', 'str': '7.1.2', 'svnurl': '/'},
+ 'edit_context': 'jwst_0323.pmap',
  'force_remote_mode': False,
- 'last_synced': '2017-03-09 08:00:08.274829',
+ 'last_synced': '2017-05-02 10:30:02.781015',
  'mapping_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/mappings/jwst/'},
  'mappings': ['jwst.pmap',
               'jwst_0000.pmap',
@@ -734,6 +584,15 @@
               'jwst_0312.pmap',
               'jwst_0313.pmap',
               'jwst_0314.pmap',
+              'jwst_0315.pmap',
+              'jwst_0316.pmap',
+              'jwst_0317.pmap',
+              'jwst_0318.pmap',
+              'jwst_0319.pmap',
+              'jwst_0320.pmap',
+              'jwst_0321.pmap',
+              'jwst_0322.pmap',
+              'jwst_0323.pmap',
               'jwst_fgs_0000.imap',
               'jwst_fgs_0001.imap',
               'jwst_fgs_0002.imap',
@@ -1015,6 +874,12 @@
               'jwst_miri_0123.imap',
               'jwst_miri_0124.imap',
               'jwst_miri_0125.imap',
+              'jwst_miri_0126.imap',
+              'jwst_miri_0127.imap',
+              'jwst_miri_0128.imap',
+              'jwst_miri_0129.imap',
+              'jwst_miri_0130.imap',
+              'jwst_miri_0131.imap',
               'jwst_miri_amplifier_0000.rmap',
               'jwst_miri_area_0001.rmap',
               'jwst_miri_area_0002.rmap',
@@ -1024,6 +889,8 @@
               'jwst_miri_area_0006.rmap',
               'jwst_miri_area_0007.rmap',
               'jwst_miri_area_0008.rmap',
+              'jwst_miri_cubepar_0001.rmap',
+              'jwst_miri_cubepar_0002.rmap',
               'jwst_miri_dark_0000.rmap',
               'jwst_miri_dark_0001.rmap',
               'jwst_miri_dark_0002.rmap',
@@ -1193,6 +1060,7 @@
               'jwst_miri_photom_0011.rmap',
               'jwst_miri_photom_0012.rmap',
               'jwst_miri_photom_0013.rmap',
+              'jwst_miri_photom_0014.rmap',
               'jwst_miri_readnoise_0000.rmap',
               'jwst_miri_readnoise_0001.rmap',
               'jwst_miri_readnoise_0002.rmap',
@@ -1202,6 +1070,7 @@
               'jwst_miri_readnoise_0006.rmap',
               'jwst_miri_readnoise_0007.rmap',
               'jwst_miri_readnoise_0008.rmap',
+              'jwst_miri_readnoise_0009.rmap',
               'jwst_miri_regions_0001.rmap',
               'jwst_miri_regions_0002.rmap',
               'jwst_miri_regions_0003.rmap',
@@ -1226,6 +1095,8 @@
               'jwst_miri_reset_0006.rmap',
               'jwst_miri_reset_0007.rmap',
               'jwst_miri_reset_0008.rmap',
+              'jwst_miri_resol_0001.rmap',
+              'jwst_miri_resol_0002.rmap',
               'jwst_miri_rscd_0001.rmap',
               'jwst_miri_rscd_0002.rmap',
               'jwst_miri_rscd_0003.rmap',
@@ -1354,6 +1225,7 @@
               'jwst_nircam_0060.imap',
               'jwst_nircam_0061.imap',
               'jwst_nircam_0062.imap',
+              'jwst_nircam_0063.imap',
               'jwst_nircam_amplifier_0000.rmap',
               'jwst_nircam_area_0001.rmap',
               'jwst_nircam_area_0002.rmap',
@@ -1422,6 +1294,7 @@
               'jwst_nircam_photom_0002.rmap',
               'jwst_nircam_photom_0003.rmap',
               'jwst_nircam_photom_0004.rmap',
+              'jwst_nircam_photom_0005.rmap',
               'jwst_nircam_readnoise_0000.rmap',
               'jwst_nircam_readnoise_0001.rmap',
               'jwst_nircam_readnoise_0002.rmap',
@@ -1772,6 +1645,8 @@
               'jwst_nirspec_0110.imap',
               'jwst_nirspec_0111.imap',
               'jwst_nirspec_0112.imap',
+              'jwst_nirspec_0113.imap',
+              'jwst_nirspec_0114.imap',
               'jwst_nirspec_amplifier_0000.rmap',
               'jwst_nirspec_area_0001.rmap',
               'jwst_nirspec_area_0002.rmap',
@@ -1799,6 +1674,8 @@
               'jwst_nirspec_collimator_0009.rmap',
               'jwst_nirspec_collimator_0010.rmap',
               'jwst_nirspec_collimator_0011.rmap',
+              'jwst_nirspec_cubepar_0001.rmap',
+              'jwst_nirspec_cubepar_0002.rmap',
               'jwst_nirspec_dark_0000.rmap',
               'jwst_nirspec_dark_0001.rmap',
               'jwst_nirspec_dark_0002.rmap',
@@ -2047,7 +1924,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'jwst',
- 'operational_context': 'jwst_0311.pmap',
+ 'operational_context': 'jwst_0319.pmap',
  'reference_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/references/jwst/'},
  'server': 'https://jwst-crds.stsci.edu',
  'status': 'server',
