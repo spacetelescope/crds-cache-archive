@@ -460,7 +460,7 @@
  'crds_version': {'rev': '95786e9b', 'str': '7.1.4', 'svnurl': '/'},
  'edit_context': 'jwst_0341.pmap',
  'force_remote_mode': False,
- 'last_synced': '2017-06-18 20:00:03.636011',
+ 'last_synced': '2017-06-19 16:35:04.672025',
  'mapping_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/mappings/jwst/'},
  'mappings': ['jwst.pmap',
               'jwst_0000.pmap',
