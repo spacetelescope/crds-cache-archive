@@ -1,9 +1,9 @@
 #! /bin/sh
 
-source ../CRDS/envs/hst-crds-ops.sh
+. ../CRDS/envs/hst-crds-ops.sh
 export CRDS_PATH=`pwd`
 crds sync --all 
-source ../CRDS/envs/jwst-crds-ops.sh
+. ../CRDS/envs/jwst-crds-ops.sh
 export CRDS_PATH=`pwd`
 crds sync --all 
 
