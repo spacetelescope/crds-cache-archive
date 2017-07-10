@@ -18,7 +18,29 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2017-06-19 15:23:20',
+ 'context_history': [['2017-07-07 11:09:50',
+                      'hst_0539.pmap',
+                      'STIS reference file delivery. Previous IDCTAB for STIS '
+                      'FUVMAMA was a dummy file which included only the global '
+                      'linear distortions in X and Y. \r\n'
+                      'We have recently derived a new geometric distortion '
+                      'solution for the STIS FUVMAMA detector, and this new '
+                      'reference\r\n'
+                      'file implements the full fourth order polynomial '
+                      'coefficients to convert the raw X and Y positions to '
+                      'the rectified \r\n'
+                      'X and Y positions. This new IDCTAB will be applied to '
+                      'ALL existing STIS FUVMAMA imaging data in the archive '
+                      'as well \r\n'
+                      'as those obtained in future observations. A STIS ISR '
+                      'will be published describing the details of this new '
+                      'IDCTAB.'],
+                     ['2017-07-05 13:39:10',
+                      'hst_0538.pmap',
+                      'New WFC3 files used in the dark current subtraction for '
+                      'WFC/UVIS products from the following dates 06 June 2017 '
+                      'to 24 June 2017.'],
+                     ['2017-06-19 15:23:20',
                       'hst_0537.pmap',
                       'A new set of STIS reference files is being delivered to '
                       'improve the pointing accuracy of spectroscopic data in '
@@ -1064,9 +1086,9 @@
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
  'crds_version': {'rev': '60541d9', 'str': '7.1.1', 'svnurl': '/'},
- 'edit_context': 'hst_0537.pmap',
+ 'edit_context': 'hst_0539.pmap',
  'force_remote_mode': False,
- 'last_synced': '2017-06-19 16:14:38.427692',
+ 'last_synced': '2017-07-10 08:00:18.831388',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -1418,6 +1440,8 @@
               'hst_0535.pmap',
               'hst_0536.pmap',
               'hst_0537.pmap',
+              'hst_0538.pmap',
+              'hst_0539.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -2012,6 +2036,7 @@
               'hst_stis_0283.imap',
               'hst_stis_0284.imap',
               'hst_stis_0285.imap',
+              'hst_stis_0286.imap',
               'hst_stis_apdestab.rmap',
               'hst_stis_apdestab_0001.rmap',
               'hst_stis_apdestab_0250.rmap',
@@ -2115,6 +2140,7 @@
               'hst_stis_halotab_0250.rmap',
               'hst_stis_idctab.rmap',
               'hst_stis_idctab_0250.rmap',
+              'hst_stis_idctab_0251.rmap',
               'hst_stis_imphttab_0000.rmap',
               'hst_stis_imphttab_0001.rmap',
               'hst_stis_imphttab_0002.rmap',
@@ -2314,6 +2340,7 @@
               'hst_wfc3_0377.imap',
               'hst_wfc3_0378.imap',
               'hst_wfc3_0379.imap',
+              'hst_wfc3_0380.imap',
               'hst_wfc3_atodtab.rmap',
               'hst_wfc3_atodtab_0250.rmap',
               'hst_wfc3_biacfile_0001.rmap',
@@ -2453,6 +2480,7 @@
               'hst_wfc3_darkfile_0350.rmap',
               'hst_wfc3_darkfile_0351.rmap',
               'hst_wfc3_darkfile_0352.rmap',
+              'hst_wfc3_darkfile_0353.rmap',
               'hst_wfc3_drkcfile_0001.rmap',
               'hst_wfc3_drkcfile_0002.rmap',
               'hst_wfc3_drkcfile_0003.rmap',
@@ -2511,6 +2539,7 @@
               'hst_wfc3_drkcfile_0059.rmap',
               'hst_wfc3_drkcfile_0060.rmap',
               'hst_wfc3_drkcfile_0061.rmap',
+              'hst_wfc3_drkcfile_0063.rmap',
               'hst_wfc3_flshfile.rmap',
               'hst_wfc3_flshfile_0001.rmap',
               'hst_wfc3_flshfile_0002.rmap',
@@ -2570,7 +2599,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0537.pmap',
+ 'operational_context': 'hst_0539.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
