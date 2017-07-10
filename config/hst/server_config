@@ -1088,7 +1088,7 @@
  'crds_version': {'rev': '60541d9', 'str': '7.1.1', 'svnurl': '/'},
  'edit_context': 'hst_0539.pmap',
  'force_remote_mode': False,
- 'last_synced': '2017-07-10 08:00:18.831388',
+ 'last_synced': '2017-07-10 16:00:10.733716',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
