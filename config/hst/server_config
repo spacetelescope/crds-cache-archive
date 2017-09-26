@@ -1178,10 +1178,10 @@
                       'Updated hst.pmap with new references (known to '
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
- 'crds_version': {'rev': '60541d9', 'str': '7.1.1', 'svnurl': '/'},
+ 'crds_version': {'rev': '91a4e406', 'str': '7.1.5', 'svnurl': '/'},
  'edit_context': 'hst_0559.pmap',
  'force_remote_mode': False,
- 'last_synced': '2017-09-22 16:00:05.918425',
+ 'last_synced': '2017-09-26 12:00:09.138974',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
