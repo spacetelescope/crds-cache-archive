@@ -27,35 +27,35 @@
  'connected': True,
  'context_history': [['2017-09-26 13:11:07',
                       'jwst_0391.pmap',
-                      'FGS persistence references added\r\n'
+                      'FGS persistence references added.\r\n'
                       '\r\n'
-                      'MIRI set WAVECORR and MSAOPER to N/A\r\n'
+                      'MIRI set WAVECORR and MSAOPER to N/A.\r\n'
                       '\r\n'
-                      'NIRCAM AREA references\r\n'
-                      'NIRCAM DISTORTION references + updates\r\n'
-                      'NIRCAM GAIN replacement references\r\n'
+                      'NIRCAM AREA references.\r\n'
+                      'NIRCAM DISTORTION references + updates.\r\n'
+                      'NIRCAM GAIN replacement references.\r\n'
                       '\r\n'
-                      'NIRISS DARK reference replacement\r\n'
-                      'NIRISS EXTRACT1D support for NIS_SOSS\r\n'
-                      'NIRISS FLAT replacements\r\n'
-                      'NIRISS GAIN generic replacement\r\n'
+                      'NIRISS DARK reference replacement.\r\n'
+                      'NIRISS EXTRACT1D support for NIS_SOSS.\r\n'
+                      'NIRISS FLAT replacements.\r\n'
+                      'NIRISS GAIN generic replacement.\r\n'
                       'NIRISS PERSAT, TRAPPARS, TRAPDENSITY references '
-                      'added\r\n'
-                      'NIRISS PHOTOM reference replaced\r\n'
-                      'NIRISS SPECWCS references + rmap update\r\n'
-                      'NIRISS SUPERBIAS references + updates\r\n'
+                      'added.\r\n'
+                      'NIRISS PHOTOM reference replaced.\r\n'
+                      'NIRISS SPECWCS references + rmap update.\r\n'
+                      'NIRISS SUPERBIAS references + updates.\r\n'
                       '\r\n'
-                      'NIRSPEC CAMERA, COLLIMATOR handle NRS_AUTOWAVE\r\n'
+                      'NIRSPEC CAMERA, COLLIMATOR handle NRS_AUTOWAVE.\r\n'
                       'NIRSPEC DFLAT, FFLAT, SFLAT handling for AUTOWAVE + '
-                      'imaging modes\r\n'
+                      'imaging modes.\r\n'
                       'NIRSPEC FLAT added back empty for imaging mode '
-                      'references to come,  handles spec modes as N/A\r\n'
+                      'references to come,  handles spec modes as N/A.\r\n'
                       'NIRSPEC DISPERSER, FORE, FPA, OTE  MSA, WAVELENGTHRANGE '
-                      'handle NRS_AUTOWAVE\r\n'
+                      'handle NRS_AUTOWAVE.\r\n'
                       'NIRSPEC replaced GAIN, LINEARITY, READNOISE '
-                      'references\r\n'
-                      'NIRSPEC MSAOPER same reference all cases\r\n'
-                      'NIRSPEC SATURATION new + replaced references'],
+                      'references.\r\n'
+                      'NIRSPEC MSAOPER same reference all cases.\r\n'
+                      'NIRSPEC SATURATION new + replaced references.'],
                      ['2017-08-18 14:30:57',
                       'jwst_0361.pmap',
                       'Temporary rollback until NIRCAM SPECWCS references are '
@@ -525,10 +525,10 @@
                      ['2012-09-06 00:00:00',
                       'jwst.pmap',
                       'Bootstrap mappings']],
- 'crds_version': {'rev': '0b321302', 'str': '7.1.6', 'svnurl': '/'},
- 'edit_context': 'jwst_0391.pmap',
+ 'crds_version': {'rev': '3055232c', 'str': '7.1.6', 'svnurl': '/'},
+ 'edit_context': 'jwst_0400.pmap',
  'force_remote_mode': False,
- 'last_synced': '2017-09-26 13:15:39.769991',
+ 'last_synced': '2017-09-30 08:00:05.855106',
  'mapping_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/mappings/jwst/'},
  'mappings': ['jwst.pmap',
               'jwst_0000.pmap',
@@ -915,6 +915,15 @@
               'jwst_0389.pmap',
               'jwst_0390.pmap',
               'jwst_0391.pmap',
+              'jwst_0392.pmap',
+              'jwst_0393.pmap',
+              'jwst_0394.pmap',
+              'jwst_0395.pmap',
+              'jwst_0396.pmap',
+              'jwst_0397.pmap',
+              'jwst_0398.pmap',
+              'jwst_0399.pmap',
+              'jwst_0400.pmap',
               'jwst_fgs_0000.imap',
               'jwst_fgs_0001.imap',
               'jwst_fgs_0002.imap',
@@ -2132,6 +2141,13 @@
               'jwst_nirspec_0136.imap',
               'jwst_nirspec_0137.imap',
               'jwst_nirspec_0138.imap',
+              'jwst_nirspec_0139.imap',
+              'jwst_nirspec_0140.imap',
+              'jwst_nirspec_0141.imap',
+              'jwst_nirspec_0142.imap',
+              'jwst_nirspec_0143.imap',
+              'jwst_nirspec_0144.imap',
+              'jwst_nirspec_0145.imap',
               'jwst_nirspec_amplifier_0000.rmap',
               'jwst_nirspec_area_0001.rmap',
               'jwst_nirspec_area_0002.rmap',
@@ -2142,6 +2158,8 @@
               'jwst_nirspec_area_0008.rmap',
               'jwst_nirspec_area_0009.rmap',
               'jwst_nirspec_area_0010.rmap',
+              'jwst_nirspec_barshadow_0001.rmap',
+              'jwst_nirspec_barshadow_0002.rmap',
               'jwst_nirspec_camera_0001.rmap',
               'jwst_nirspec_camera_0002.rmap',
               'jwst_nirspec_camera_0003.rmap',
@@ -2219,6 +2237,7 @@
               'jwst_nirspec_extract1d_0006.rmap',
               'jwst_nirspec_extract1d_0007.rmap',
               'jwst_nirspec_extract1d_0008.rmap',
+              'jwst_nirspec_extract1d_0009.rmap',
               'jwst_nirspec_fflat_0001.rmap',
               'jwst_nirspec_fflat_0002.rmap',
               'jwst_nirspec_fflat_0003.rmap',
@@ -2233,6 +2252,8 @@
               'jwst_nirspec_flat_0007.rmap',
               'jwst_nirspec_flat_0008.rmap',
               'jwst_nirspec_flat_0009.rmap',
+              'jwst_nirspec_flat_0010.rmap',
+              'jwst_nirspec_flat_0011.rmap',
               'jwst_nirspec_fore_0001.rmap',
               'jwst_nirspec_fore_0002.rmap',
               'jwst_nirspec_fore_0003.rmap',
@@ -2293,6 +2314,7 @@
               'jwst_nirspec_ipc_0000.rmap',
               'jwst_nirspec_ipc_0001.rmap',
               'jwst_nirspec_ipc_0003.rmap',
+              'jwst_nirspec_ipc_0006.rmap',
               'jwst_nirspec_linearity_0000.rmap',
               'jwst_nirspec_linearity_0001.rmap',
               'jwst_nirspec_linearity_0002.rmap',
@@ -2316,6 +2338,7 @@
               'jwst_nirspec_mask_0010.rmap',
               'jwst_nirspec_mask_0011.rmap',
               'jwst_nirspec_mask_0012.rmap',
+              'jwst_nirspec_mask_0015.rmap',
               'jwst_nirspec_msa_0001.rmap',
               'jwst_nirspec_msa_0002.rmap',
               'jwst_nirspec_msa_0003.rmap',
@@ -2425,6 +2448,7 @@
               'jwst_nirspec_superbias_0015.rmap',
               'jwst_nirspec_superbias_0016.rmap',
               'jwst_nirspec_superbias_0017.rmap',
+              'jwst_nirspec_superbias_0018.rmap',
               'jwst_nirspec_trapdensity_0001.rmap',
               'jwst_nirspec_trapdensity_0002.rmap',
               'jwst_nirspec_trapdensity_0003.rmap',
@@ -2458,6 +2482,8 @@
               'jwst_system_0010.imap',
               'jwst_system_0011.imap',
               'jwst_system_0012.imap',
+              'jwst_system_0013.imap',
+              'jwst_system_0014.imap',
               'jwst_system_calver_0001.rmap',
               'jwst_system_calver_0002.rmap',
               'jwst_system_calver_0003.rmap',
@@ -2468,6 +2494,8 @@
               'jwst_system_calver_0010.rmap',
               'jwst_system_calver_0011.rmap',
               'jwst_system_calver_0013.rmap',
+              'jwst_system_calver_0014.rmap',
+              'jwst_system_calver_0015.rmap',
               'jwst_system_datalvl_0001.rmap',
               'jwst_system_datalvl_0002.rmap'],
  'max_bestrefs_per_rpc': 1000,
@@ -2477,4 +2505,4 @@
  'reference_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/references/jwst/'},
  'server': 'https://jwst-crds.stsci.edu',
  'status': 'server',
- 'versions_context': 'jwst_0303.pmap'}
+ 'versions_context': 'jwst_0395.pmap'}
