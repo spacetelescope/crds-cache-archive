@@ -1,4 +1,11 @@
 04p2041cj_fls.fits
+1av1447fj_snk.fits
+1av1447jj_snk.fits
+1av1447mj_snk.fits
+1av1447pj_snk.fits
+1av1447sj_snk.fits
+1av14481j_snk.fits
+2131432nj_snk.fits
 l2d0959cj_pfl.fits
 l5a13436j_fls.fits
 lbe1209bj_pfl.fits
