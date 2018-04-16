@@ -1,4 +1,5 @@
 jwst_miri_area_0001.fits
+jwst_miri_cubepar_0001.fits
 jwst_miri_dark_0008.rmap
 jwst_miri_flat_0002.rmap
 jwst_miri_flat_0003.rmap
@@ -12,3 +13,4 @@ jwst_nircam_distortion_0042.asdf
 jwst_nircam_distortion_0044.asdf
 jwst_nircam_distortion_0045.asdf
 jwst_nircam_distortion_0046.asdf
+jwst_nirspec_cubepar_0001.fits
