@@ -78,7 +78,41 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2018-04-09 11:46:29',
+ 'context_history': [['2018-05-08 12:52:25',
+                      'hst_0633.pmap',
+                      'Reprocessing of all ACS WFC superbias files with CALACS '
+                      'v10.0.0 removes poisson noise from error arrays, adds '
+                      'readout dark error to all bias error arrays, includes '
+                      'only stable hot columns in error arrays, flags unstable '
+                      'hot columns in DQ arrays. Reduces the frequency of '
+                      'superdark files to one per anneal or month. All WFC '
+                      'bias, dark, and applicable sink files since '
+                      'installation in March 2002 have been updated and will '
+                      'be delivered in several batches. This is batch 2 of 5.'],
+                     ['2018-05-07 14:30:18',
+                      'hst_0628.pmap',
+                      'Reprocessing of all ACS WFC superbias files with CALACS '
+                      'v10.0.0 removes poisson noise from error arrays, adds '
+                      'readout dark error to all bias error arrays, includes '
+                      'only stable hot columns in error arrays, flags unstable '
+                      'hot columns in DQ arrays. Reduces the frequency of '
+                      'superdark files to one per anneal or month. All WFC '
+                      'bias, dark, and applicable sink files since '
+                      'installation in March 2002 have been updated and will '
+                      'be delivered in several batches.'],
+                     ['2018-04-26 08:09:04',
+                      'hst_0621.pmap',
+                      'These files are used in the dark current subtraction '
+                      'for WFC3 UVIS products from the 6th of April 2018 thru '
+                      'the 20th of April 2018.     Delivered by  Catherine '
+                      'Martlin for WFC3.'],
+                     ['2018-04-20 16:12:50',
+                      'hst_0620.pmap',
+                      'These files are used in the dark current subtraction '
+                      'for WFC3 UVIS products from the 28th of March 2018 thru '
+                      'the 6th of April 2018.     Delivered by  Catherine '
+                      'Martlin for WFC3.'],
+                     ['2018-04-09 11:46:29',
                       'hst_0619.pmap',
                       'A lifetime specific lamp template was observed at '
                       'Lifetime Position 4. The dispersion solutions have also '
@@ -1529,9 +1563,9 @@
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
  'crds_version': {'rev': 'd0d2568c', 'str': '7.2.1', 'svnurl': '/'},
- 'edit_context': 'hst_0619.pmap',
+ 'edit_context': 'hst_0633.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-04-16 16:00:06.978716',
+ 'last_synced': '2018-05-10 08:00:04.541268',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -1965,6 +1999,20 @@
               'hst_0617.pmap',
               'hst_0618.pmap',
               'hst_0619.pmap',
+              'hst_0620.pmap',
+              'hst_0621.pmap',
+              'hst_0622.pmap',
+              'hst_0623.pmap',
+              'hst_0624.pmap',
+              'hst_0625.pmap',
+              'hst_0626.pmap',
+              'hst_0627.pmap',
+              'hst_0628.pmap',
+              'hst_0629.pmap',
+              'hst_0630.pmap',
+              'hst_0631.pmap',
+              'hst_0632.pmap',
+              'hst_0633.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -2100,6 +2148,18 @@
               'hst_acs_0370.imap',
               'hst_acs_0371.imap',
               'hst_acs_0372.imap',
+              'hst_acs_0373.imap',
+              'hst_acs_0374.imap',
+              'hst_acs_0375.imap',
+              'hst_acs_0376.imap',
+              'hst_acs_0377.imap',
+              'hst_acs_0378.imap',
+              'hst_acs_0379.imap',
+              'hst_acs_0380.imap',
+              'hst_acs_0381.imap',
+              'hst_acs_0382.imap',
+              'hst_acs_0383.imap',
+              'hst_acs_0384.imap',
               'hst_acs_atodtab.rmap',
               'hst_acs_atodtab_0250.rmap',
               'hst_acs_biasfile.rmap',
@@ -2172,6 +2232,10 @@
               'hst_acs_biasfile_0314.rmap',
               'hst_acs_biasfile_0315.rmap',
               'hst_acs_biasfile_0316.rmap',
+              'hst_acs_biasfile_0319.rmap',
+              'hst_acs_biasfile_0320.rmap',
+              'hst_acs_biasfile_0321.rmap',
+              'hst_acs_biasfile_0322.rmap',
               'hst_acs_bpixtab.rmap',
               'hst_acs_bpixtab_0250.rmap',
               'hst_acs_ccdtab.rmap',
@@ -2264,6 +2328,14 @@
               'hst_acs_darkfile_0322.rmap',
               'hst_acs_darkfile_0323.rmap',
               'hst_acs_darkfile_0324.rmap',
+              'hst_acs_darkfile_0329.rmap',
+              'hst_acs_darkfile_0330.rmap',
+              'hst_acs_darkfile_0332.rmap',
+              'hst_acs_darkfile_0333.rmap',
+              'hst_acs_darkfile_0334.rmap',
+              'hst_acs_darkfile_0335.rmap',
+              'hst_acs_darkfile_0336.rmap',
+              'hst_acs_darkfile_0337.rmap',
               'hst_acs_dgeofile.rmap',
               'hst_acs_dgeofile_0250.rmap',
               'hst_acs_drkcfile.rmap',
@@ -2356,6 +2428,14 @@
               'hst_acs_drkcfile_0335.rmap',
               'hst_acs_drkcfile_0336.rmap',
               'hst_acs_drkcfile_0337.rmap',
+              'hst_acs_drkcfile_0340.rmap',
+              'hst_acs_drkcfile_0341.rmap',
+              'hst_acs_drkcfile_0344.rmap',
+              'hst_acs_drkcfile_0345.rmap',
+              'hst_acs_drkcfile_0346.rmap',
+              'hst_acs_drkcfile_0347.rmap',
+              'hst_acs_drkcfile_0348.rmap',
+              'hst_acs_drkcfile_0349.rmap',
               'hst_acs_flshfile.rmap',
               'hst_acs_flshfile_0250.rmap',
               'hst_acs_flshfile_0251.rmap',
@@ -3077,6 +3157,8 @@
               'hst_wfc3_0399.imap',
               'hst_wfc3_0400.imap',
               'hst_wfc3_0401.imap',
+              'hst_wfc3_0402.imap',
+              'hst_wfc3_0403.imap',
               'hst_wfc3_atodtab.rmap',
               'hst_wfc3_atodtab_0250.rmap',
               'hst_wfc3_biacfile_0001.rmap',
@@ -3237,6 +3319,8 @@
               'hst_wfc3_darkfile_0365.rmap',
               'hst_wfc3_darkfile_0366.rmap',
               'hst_wfc3_darkfile_0367.rmap',
+              'hst_wfc3_darkfile_0368.rmap',
+              'hst_wfc3_darkfile_0369.rmap',
               'hst_wfc3_drkcfile_0001.rmap',
               'hst_wfc3_drkcfile_0002.rmap',
               'hst_wfc3_drkcfile_0003.rmap',
@@ -3309,6 +3393,8 @@
               'hst_wfc3_drkcfile_0075.rmap',
               'hst_wfc3_drkcfile_0076.rmap',
               'hst_wfc3_drkcfile_0077.rmap',
+              'hst_wfc3_drkcfile_0078.rmap',
+              'hst_wfc3_drkcfile_0079.rmap',
               'hst_wfc3_flshfile.rmap',
               'hst_wfc3_flshfile_0001.rmap',
               'hst_wfc3_flshfile_0002.rmap',
@@ -3370,7 +3456,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0619.pmap',
+ 'operational_context': 'hst_0633.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
