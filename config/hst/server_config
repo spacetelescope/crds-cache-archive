@@ -78,7 +78,19 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2018-05-16 16:01:51',
+ 'context_history': [['2018-05-30 14:18:20',
+                      'hst_0649.pmap',
+                      'Update 2x2 binned reference files. The previous '
+                      'reference files were made with TV3 data in 2009. The '
+                      'new reference files are created from the full frame '
+                      'bias reference files from 2009 to 2017, which were '
+                      'generated from inflight data. Note that each new '
+                      'reference file was created from the corresponding full '
+                      'frame bias reference file and have the same USEAFTER '
+                      'and PEDIGREE header keywords. Please see HISTORY '
+                      'section in the main header for details.   Delivered by '
+                      'Myles McKay for WFC3.'],
+                     ['2018-05-16 16:01:51',
                       'hst_0648.pmap',
                       'Standard delivery of new bias, dark, and sink pixel '
                       'files due to the anneal that occurred on 2018 May 03. '
@@ -1611,9 +1623,9 @@
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
  'crds_version': {'rev': '8cf742d9', 'str': '7.2.2', 'svnurl': '/'},
- 'edit_context': 'hst_0648.pmap',
+ 'edit_context': 'hst_0650.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-05-25 16:00:06.241418',
+ 'last_synced': '2018-05-31 15:00:04.607447',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -2076,6 +2088,8 @@
               'hst_0646.pmap',
               'hst_0647.pmap',
               'hst_0648.pmap',
+              'hst_0649.pmap',
+              'hst_0650.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -3269,6 +3283,8 @@
               'hst_wfc3_0403.imap',
               'hst_wfc3_0404.imap',
               'hst_wfc3_0405.imap',
+              'hst_wfc3_0406.imap',
+              'hst_wfc3_0407.imap',
               'hst_wfc3_atodtab.rmap',
               'hst_wfc3_atodtab_0250.rmap',
               'hst_wfc3_biacfile_0001.rmap',
@@ -3280,6 +3296,8 @@
               'hst_wfc3_biasfile_0252.rmap',
               'hst_wfc3_biasfile_0253.rmap',
               'hst_wfc3_biasfile_0254.rmap',
+              'hst_wfc3_biasfile_0255.rmap',
+              'hst_wfc3_biasfile_0256.rmap',
               'hst_wfc3_bpixtab.rmap',
               'hst_wfc3_bpixtab_0250.rmap',
               'hst_wfc3_bpixtab_0251.rmap',
@@ -3570,7 +3588,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0648.pmap',
+ 'operational_context': 'hst_0649.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
