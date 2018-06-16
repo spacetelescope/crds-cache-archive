@@ -15,7 +15,32 @@
                     'jwst_nircam_distortion_0046.asdf',
                     'jwst_nirspec_cubepar_0001.fits'],
  'connected': True,
- 'context_history': [['2018-05-29 10:14:37',
+ 'context_history': [['2018-06-06 12:49:16',
+                      'jwst_0468.pmap',
+                      'B7.1.3 final DMS context. \r\n'
+                      '\r\n'
+                      'Updated NIRSPEC gain rmap to add '
+                      'jwst_nirspec_gain_0019.fits and '
+                      'jwst_nirspec_gain_0018.fits for NETA.SUBARRAY.NAME '
+                      'equal to GENERIC for the NRS1 and NRS2 detectors, '
+                      'respectively, so that they will apply to all subarray '
+                      'data taken before April 1 2017 where the gain was 1. '
+                      'For subarray data taken after April 1 2017 where the '
+                      'gain is set to 2, jwst_nirspec_gain_0017.fits for NRS1 '
+                      'and jwst_nirspec_gain_0016.fits for NRS2 will be used,  '
+                      'as discussed in Jira CRDS-216.   Also dropped obsolete '
+                      '3D MIRI DARK files which no longer run with CAL, as '
+                      'discussed in Jira CRDS-206.'],
+                     ['2018-06-01 10:04:11',
+                      'jwst_0465.pmap',
+                      'New NIRSPEC OTE and IFUPOST rmaps where the USEAFTERs '
+                      'for the newest files, jwst_nirspec_ifupost_0004.asdf '
+                      'and jwst_nirspec_ote_0005.asdf, were changed to 2015 11 '
+                      '01 in order for CV3 data to be fully covered by the new '
+                      'files. See JIRA issue CRDS 218 for more information.  '
+                      'For NIRCAM WFSSBKG changed EXP_TYPE  NRC_GRISM to '
+                      'NRC_WFSS in rmap.'],
+                     ['2018-05-29 10:14:37',
                       'jwst_0463.pmap',
                       'New NIRCam subarray dark reference files are being '
                       'delivered for missing subarray SUB400P for detectors '
@@ -147,9 +172,9 @@
                       'NIRISS EXTRACT1D exposure type NIS_WFSS.'],
                      ['2017-11-13 12:25:12',
                       'jwst_0422.pmap',
-                      'Corrections to NIRSPEC SUPERBIAS rmaps related to '
-                      'ALLIRS2 patterns and P_ keywords. Expanded coverage for '
-                      'NIRCAM FLAT rmap. Candidate for B7.1 final context.'],
+                      'B7.1 final context.   Corrections to NIRSPEC SUPERBIAS '
+                      'rmaps related to ALLIRS2 patterns and P_ keywords. '
+                      'Expanded coverage for NIRCAM FLAT rmap.'],
                      ['2017-11-10 14:34:17',
                       'jwst_0419.pmap',
                       'NIRCAM DARK backward compatible SUBARRAY names  '
@@ -680,10 +705,10 @@
                      ['2012-09-06 00:00:00',
                       'jwst.pmap',
                       'Bootstrap mappings']],
- 'crds_version': {'rev': '3b4710ba', 'str': '7.2.3', 'svnurl': '/'},
- 'edit_context': 'jwst_0465.pmap',
+ 'crds_version': {'rev': '95f65c86', 'str': '7.2.4', 'svnurl': '/'},
+ 'edit_context': 'jwst_0468.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-05-31 15:10:03.335151',
+ 'last_synced': '2018-06-16 08:00:04.825076',
  'mapping_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/mappings/jwst/'},
  'mappings': ['jwst.pmap',
               'jwst_0000.pmap',
@@ -1144,6 +1169,9 @@
               'jwst_0463.pmap',
               'jwst_0464.pmap',
               'jwst_0465.pmap',
+              'jwst_0466.pmap',
+              'jwst_0467.pmap',
+              'jwst_0468.pmap',
               'jwst_fgs_0000.imap',
               'jwst_fgs_0001.imap',
               'jwst_fgs_0002.imap',
@@ -1489,6 +1517,7 @@
               'jwst_miri_0149.imap',
               'jwst_miri_0150.imap',
               'jwst_miri_0151.imap',
+              'jwst_miri_0152.imap',
               'jwst_miri_amplifier_0000.rmap',
               'jwst_miri_area_0001.rmap',
               'jwst_miri_area_0002.rmap',
@@ -1521,6 +1550,7 @@
               'jwst_miri_dark_0015.rmap',
               'jwst_miri_dark_0016.rmap',
               'jwst_miri_dark_0017.rmap',
+              'jwst_miri_dark_0018.rmap',
               'jwst_miri_distortion_0001.rmap',
               'jwst_miri_distortion_0002.rmap',
               'jwst_miri_distortion_0003.rmap',
@@ -2493,6 +2523,8 @@
               'jwst_nirspec_0166.imap',
               'jwst_nirspec_0167.imap',
               'jwst_nirspec_0168.imap',
+              'jwst_nirspec_0169.imap',
+              'jwst_nirspec_0170.imap',
               'jwst_nirspec_amplifier_0000.rmap',
               'jwst_nirspec_area_0001.rmap',
               'jwst_nirspec_area_0002.rmap',
@@ -2648,6 +2680,8 @@
               'jwst_nirspec_gain_0011.rmap',
               'jwst_nirspec_gain_0014.rmap',
               'jwst_nirspec_gain_0015.rmap',
+              'jwst_nirspec_gain_0016.rmap',
+              'jwst_nirspec_gain_0017.rmap',
               'jwst_nirspec_ifufore_0001.rmap',
               'jwst_nirspec_ifufore_0002.rmap',
               'jwst_nirspec_ifufore_0003.rmap',
@@ -2880,7 +2914,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'jwst',
- 'operational_context': 'jwst_0463.pmap',
+ 'operational_context': 'jwst_0468.pmap',
  'reference_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/references/jwst/'},
  'server': 'https://jwst-crds.stsci.edu',
  'status': 'server',
