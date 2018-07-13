@@ -78,7 +78,19 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2018-07-03 11:15:18',
+ 'context_history': [['2018-07-13 09:03:00',
+                      'hst_0657.pmap',
+                      'Standard delivery of ACS WFC superbias, superdark, and '
+                      'sink pixel reference files following the anneals on May '
+                      '3, 2018 and May 31, 2018. These files will be used to '
+                      'calibrate ACS WFC observations taken between April 4, '
+                      '2018 and June 25, 2018. In addition, two dark and two '
+                      'CTE dark reference files are being delivered for '
+                      'October 2009. The original files were either omitted or '
+                      'incorrect in our mass delivery following the release of '
+                      'HSTDP 2018.1. This delivery corrects those mistakes.   '
+                      'Delivered by Tyler Desjardins for ACS.'],
+                     ['2018-07-03 11:15:18',
                       'hst_0656.pmap',
                       'This IDCTAB file was updated to include newly solved '
                       'solutions for F475W, F475X, F600LP, F280N, F343N, '
@@ -1675,9 +1687,9 @@
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
  'crds_version': {'rev': '8cf742d9', 'str': '7.2.2', 'svnurl': '/'},
- 'edit_context': 'hst_0656.pmap',
+ 'edit_context': 'hst_0657.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-07-05 08:00:08.001614',
+ 'last_synced': '2018-07-13 09:11:40.460483',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -2148,6 +2160,7 @@
               'hst_0654.pmap',
               'hst_0655.pmap',
               'hst_0656.pmap',
+              'hst_0657.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -2308,6 +2321,7 @@
               'hst_acs_0395.imap',
               'hst_acs_0396.imap',
               'hst_acs_0397.imap',
+              'hst_acs_0398.imap',
               'hst_acs_atodtab.rmap',
               'hst_acs_atodtab_0250.rmap',
               'hst_acs_biasfile.rmap',
@@ -2391,6 +2405,7 @@
               'hst_acs_biasfile_0327.rmap',
               'hst_acs_biasfile_0328.rmap',
               'hst_acs_biasfile_0329.rmap',
+              'hst_acs_biasfile_0330.rmap',
               'hst_acs_bpixtab.rmap',
               'hst_acs_bpixtab_0250.rmap',
               'hst_acs_bpixtab_0251.rmap',
@@ -2502,6 +2517,7 @@
               'hst_acs_darkfile_0344.rmap',
               'hst_acs_darkfile_0345.rmap',
               'hst_acs_darkfile_0346.rmap',
+              'hst_acs_darkfile_0347.rmap',
               'hst_acs_dgeofile.rmap',
               'hst_acs_dgeofile_0250.rmap',
               'hst_acs_drkcfile.rmap',
@@ -2611,6 +2627,7 @@
               'hst_acs_drkcfile_0356.rmap',
               'hst_acs_drkcfile_0357.rmap',
               'hst_acs_drkcfile_0358.rmap',
+              'hst_acs_drkcfile_0359.rmap',
               'hst_acs_flshfile.rmap',
               'hst_acs_flshfile_0250.rmap',
               'hst_acs_flshfile_0251.rmap',
@@ -2671,6 +2688,7 @@
               'hst_acs_snkcfile_0012.rmap',
               'hst_acs_snkcfile_0013.rmap',
               'hst_acs_snkcfile_0014.rmap',
+              'hst_acs_snkcfile_0015.rmap',
               'hst_acs_spottab.rmap',
               'hst_acs_spottab_0250.rmap',
               'hst_cos.imap',
@@ -3662,7 +3680,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0656.pmap',
+ 'operational_context': 'hst_0657.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
