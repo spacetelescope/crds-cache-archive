@@ -1710,7 +1710,7 @@
  'crds_version': {'rev': '4dae72bc', 'str': '7.2.2', 'svnurl': '/'},
  'edit_context': 'hst_0660.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-07-22 16:00:05.382374',
+ 'last_synced': '2018-07-30 08:00:05.814170',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
