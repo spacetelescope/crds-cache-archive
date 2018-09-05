@@ -78,7 +78,14 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2018-07-19 10:32:08',
+ 'context_history': [['2018-08-03 08:19:42',
+                      'hst_0661.pmap',
+                      'New weekly biases and darks were created for the new '
+                      'anneal month and need to be delivered for GO '
+                      'observations. These files are available for STIS CCD '
+                      'observations taken after 06 July 2018.   Delivered by '
+                      'Allyssa Riley for STIS.'],
+                     ['2018-07-19 10:32:08',
                       'hst_0660.pmap',
                       'New weekly biases and darks were created for the new '
                       'anneal month and need to be delivered for GO '
@@ -1708,9 +1715,9 @@
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
  'crds_version': {'rev': '4dae72bc', 'str': '7.2.2', 'svnurl': '/'},
- 'edit_context': 'hst_0660.pmap',
+ 'edit_context': 'hst_0661.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-07-30 08:00:05.814170',
+ 'last_synced': '2018-09-05 12:00:04.859897',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -2185,6 +2192,7 @@
               'hst_0658.pmap',
               'hst_0659.pmap',
               'hst_0660.pmap',
+              'hst_0661.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -3037,6 +3045,7 @@
               'hst_stis_0297.imap',
               'hst_stis_0298.imap',
               'hst_stis_0299.imap',
+              'hst_stis_0300.imap',
               'hst_stis_apdestab.rmap',
               'hst_stis_apdestab_0001.rmap',
               'hst_stis_apdestab_0250.rmap',
@@ -3094,6 +3103,7 @@
               'hst_stis_biasfile_0292.rmap',
               'hst_stis_biasfile_0293.rmap',
               'hst_stis_biasfile_0294.rmap',
+              'hst_stis_biasfile_0295.rmap',
               'hst_stis_bpixtab.rmap',
               'hst_stis_bpixtab_0250.rmap',
               'hst_stis_ccdtab.rmap',
@@ -3152,6 +3162,7 @@
               'hst_stis_darkfile_0291.rmap',
               'hst_stis_darkfile_0292.rmap',
               'hst_stis_darkfile_0293.rmap',
+              'hst_stis_darkfile_0294.rmap',
               'hst_stis_disptab.rmap',
               'hst_stis_disptab_0250.rmap',
               'hst_stis_echsctab.rmap',
@@ -3711,7 +3722,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0660.pmap',
+ 'operational_context': 'hst_0661.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',

@@ -1,3 +1,5 @@
+jwst_fgs_distortion_0001.asdf
+jwst_fgs_distortion_0002.asdf
 jwst_miri_area_0001.fits
 jwst_miri_cubepar_0001.fits
 jwst_miri_dark_0008.rmap
