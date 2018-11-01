@@ -6,6 +6,7 @@
                     '1av1447sj_snk.fits',
                     '1av14481j_snk.fits',
                     '2131432nj_snk.fits',
+                    '2a41918ql_disp.fits',
                     'l2d0959cj_pfl.fits',
                     'l5a13436j_fls.fits',
                     'lbe1209bj_pfl.fits',
@@ -78,7 +79,42 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2018-09-25 12:08:54',
+ 'context_history': [['2018-11-01 11:38:58',
+                      'hst_0669.pmap',
+                      'Standard delivery of ACS WFC superbias, superdark, and '
+                      'sink pixel reference files following the anneal on '
+                      'September 20, 2018. These files will be used to '
+                      'calibrate ACS WFC observations taken between September '
+                      '20, 2018 and October 5, 2018.   Delivered by Tyler '
+                      'Desjardins for ACS.'],
+                     ['2018-10-11 09:50:16',
+                      'hst_0668.pmap',
+                      'New weekly biases and darks were created for the new '
+                      'anneal month and need to be delivered for GO '
+                      'observations. These files are available for STIS CCD '
+                      'observations taken after 1 Sept. 2018   Delivered by '
+                      'Allyssa Riley for STIS.'],
+                     ['2018-10-08 14:54:05',
+                      'hst_0667.pmap',
+                      'Updated LP3 G130M 1222 a0 and a1 COEFF values to '
+                      'improve the wavelength calibration accuracy of this '
+                      'setting as well as zeroed out the D column, which was '
+                      'not done in the previous delivery of these updates.   '
+                      'Delivered by Rachel Plesha for COS.'],
+                     ['2018-10-04 17:16:57',
+                      'hst_0666.pmap',
+                      'Updated LP3 G130M 1222 a0 and a1 COEFF values to '
+                      'improve the wavelength calibration accuracy of this '
+                      'setting.   Delivered by Rachel Plesha for COS.'],
+                     ['2018-09-27 16:45:41',
+                      'hst_0665.pmap',
+                      'Standard delivery of ACS WFC superbias, superdark, and '
+                      'sink pixel reference files following the anneal on '
+                      'August 20, 2018. These files will be used to calibrate '
+                      'ACS WFC observations taken between August 20, 2018 and '
+                      'September 20, 2018.   Delivered by Tyler Desjardins for '
+                      'ACS.'],
+                     ['2018-09-25 12:08:54',
                       'hst_0664.pmap',
                       'After making changes to the noise model used by ACSREJ '
                       'for rejecting cosmic rays, the CRSIGMAS parameter '
@@ -1739,10 +1775,10 @@
                       'Updated hst.pmap with new references (known to '
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
- 'crds_version': {'rev': '4dae72bc', 'str': '7.2.2', 'svnurl': '/'},
- 'edit_context': 'hst_0664.pmap',
+ 'crds_version': {'rev': '89506ffe', 'str': '7.2.5', 'svnurl': '/'},
+ 'edit_context': 'hst_0669.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-09-25 16:00:05.203837',
+ 'last_synced': '2018-11-01 12:00:07.513175',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -2221,6 +2257,11 @@
               'hst_0662.pmap',
               'hst_0663.pmap',
               'hst_0664.pmap',
+              'hst_0665.pmap',
+              'hst_0666.pmap',
+              'hst_0667.pmap',
+              'hst_0668.pmap',
+              'hst_0669.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -2384,6 +2425,8 @@
               'hst_acs_0398.imap',
               'hst_acs_0399.imap',
               'hst_acs_0400.imap',
+              'hst_acs_0401.imap',
+              'hst_acs_0402.imap',
               'hst_acs_atodtab.rmap',
               'hst_acs_atodtab_0250.rmap',
               'hst_acs_biasfile.rmap',
@@ -2469,6 +2512,8 @@
               'hst_acs_biasfile_0329.rmap',
               'hst_acs_biasfile_0330.rmap',
               'hst_acs_biasfile_0332.rmap',
+              'hst_acs_biasfile_0333.rmap',
+              'hst_acs_biasfile_0334.rmap',
               'hst_acs_bpixtab.rmap',
               'hst_acs_bpixtab_0250.rmap',
               'hst_acs_bpixtab_0251.rmap',
@@ -2583,6 +2628,8 @@
               'hst_acs_darkfile_0346.rmap',
               'hst_acs_darkfile_0347.rmap',
               'hst_acs_darkfile_0349.rmap',
+              'hst_acs_darkfile_0350.rmap',
+              'hst_acs_darkfile_0351.rmap',
               'hst_acs_dgeofile.rmap',
               'hst_acs_dgeofile_0250.rmap',
               'hst_acs_drkcfile.rmap',
@@ -2694,6 +2741,8 @@
               'hst_acs_drkcfile_0358.rmap',
               'hst_acs_drkcfile_0359.rmap',
               'hst_acs_drkcfile_0361.rmap',
+              'hst_acs_drkcfile_0362.rmap',
+              'hst_acs_drkcfile_0363.rmap',
               'hst_acs_flshfile.rmap',
               'hst_acs_flshfile_0250.rmap',
               'hst_acs_flshfile_0251.rmap',
@@ -2756,6 +2805,8 @@
               'hst_acs_snkcfile_0014.rmap',
               'hst_acs_snkcfile_0015.rmap',
               'hst_acs_snkcfile_0017.rmap',
+              'hst_acs_snkcfile_0018.rmap',
+              'hst_acs_snkcfile_0019.rmap',
               'hst_acs_spottab.rmap',
               'hst_acs_spottab_0250.rmap',
               'hst_cos.imap',
@@ -2824,6 +2875,8 @@
               'hst_cos_0297.imap',
               'hst_cos_0298.imap',
               'hst_cos_0299.imap',
+              'hst_cos_0300.imap',
+              'hst_cos_0301.imap',
               'hst_cos_badttab.rmap',
               'hst_cos_badttab_0250.rmap',
               'hst_cos_bpixtab.rmap',
@@ -2857,6 +2910,8 @@
               'hst_cos_disptab_0262.rmap',
               'hst_cos_disptab_0263.rmap',
               'hst_cos_disptab_0264.rmap',
+              'hst_cos_disptab_0265.rmap',
+              'hst_cos_disptab_0266.rmap',
               'hst_cos_flatfile.rmap',
               'hst_cos_flatfile_0002.rmap',
               'hst_cos_flatfile_0003.rmap',
@@ -3082,6 +3137,7 @@
               'hst_stis_0299.imap',
               'hst_stis_0300.imap',
               'hst_stis_0301.imap',
+              'hst_stis_0302.imap',
               'hst_stis_apdestab.rmap',
               'hst_stis_apdestab_0001.rmap',
               'hst_stis_apdestab_0250.rmap',
@@ -3141,6 +3197,7 @@
               'hst_stis_biasfile_0294.rmap',
               'hst_stis_biasfile_0295.rmap',
               'hst_stis_biasfile_0296.rmap',
+              'hst_stis_biasfile_0297.rmap',
               'hst_stis_bpixtab.rmap',
               'hst_stis_bpixtab_0250.rmap',
               'hst_stis_ccdtab.rmap',
@@ -3201,6 +3258,7 @@
               'hst_stis_darkfile_0293.rmap',
               'hst_stis_darkfile_0294.rmap',
               'hst_stis_darkfile_0295.rmap',
+              'hst_stis_darkfile_0296.rmap',
               'hst_stis_disptab.rmap',
               'hst_stis_disptab_0250.rmap',
               'hst_stis_echsctab.rmap',
@@ -3760,7 +3818,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0664.pmap',
+ 'operational_context': 'hst_0669.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
