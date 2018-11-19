@@ -79,7 +79,19 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2018-11-01 11:38:58',
+ 'context_history': [['2018-11-15 15:03:56',
+                      'hst_0672.pmap',
+                      'The reason is the deliveries of new COS TDSTAB '
+                      'references and TDSTAB rmap.'],
+                     ['2018-11-08 11:37:38',
+                      'hst_0670.pmap',
+                      'The ACS team has determined that the IDCTAB '
+                      'o911150jj_idc.fits is faulty. Images that use this file '
+                      'cannot be aligned with other images. Conversation with '
+                      'Jennifer Mack confirms that this file is faulty. This '
+                      'issue can be fixed by instead using '
+                      's5d1409dj_idc.fits.'],
+                     ['2018-11-01 11:38:58',
                       'hst_0669.pmap',
                       'Standard delivery of ACS WFC superbias, superdark, and '
                       'sink pixel reference files following the anneal on '
@@ -1775,10 +1787,10 @@
                       'Updated hst.pmap with new references (known to '
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
- 'crds_version': {'rev': '89506ffe', 'str': '7.2.5', 'svnurl': '/'},
- 'edit_context': 'hst_0669.pmap',
+ 'crds_version': {'rev': 'd29e741b', 'str': '7.2.5', 'svnurl': '/'},
+ 'edit_context': 'hst_0672.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-11-01 12:00:07.513175',
+ 'last_synced': '2018-11-19 15:00:06.595605',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -2262,6 +2274,9 @@
               'hst_0667.pmap',
               'hst_0668.pmap',
               'hst_0669.pmap',
+              'hst_0670.pmap',
+              'hst_0671.pmap',
+              'hst_0672.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -2427,6 +2442,7 @@
               'hst_acs_0400.imap',
               'hst_acs_0401.imap',
               'hst_acs_0402.imap',
+              'hst_acs_0403.imap',
               'hst_acs_atodtab.rmap',
               'hst_acs_atodtab_0250.rmap',
               'hst_acs_biasfile.rmap',
@@ -2760,6 +2776,7 @@
               'hst_acs_idctab_0252.rmap',
               'hst_acs_idctab_0253.rmap',
               'hst_acs_idctab_0254.rmap',
+              'hst_acs_idctab_0255.rmap',
               'hst_acs_imphttab.rmap',
               'hst_acs_imphttab_0001.rmap',
               'hst_acs_imphttab_0250.rmap',
@@ -2877,6 +2894,8 @@
               'hst_cos_0299.imap',
               'hst_cos_0300.imap',
               'hst_cos_0301.imap',
+              'hst_cos_0302.imap',
+              'hst_cos_0303.imap',
               'hst_cos_badttab.rmap',
               'hst_cos_badttab_0250.rmap',
               'hst_cos_bpixtab.rmap',
@@ -2998,6 +3017,8 @@
               'hst_cos_tdstab_0253.rmap',
               'hst_cos_tdstab_0254.rmap',
               'hst_cos_tdstab_0255.rmap',
+              'hst_cos_tdstab_0256.rmap',
+              'hst_cos_tdstab_0257.rmap',
               'hst_cos_tracetab_0260.rmap',
               'hst_cos_tracetab_0261.rmap',
               'hst_cos_tracetab_0262.rmap',
@@ -3818,7 +3839,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0669.pmap',
+ 'operational_context': 'hst_0672.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
