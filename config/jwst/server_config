@@ -17,7 +17,20 @@
                     'jwst_nircam_distortion_0046.asdf',
                     'jwst_nirspec_cubepar_0001.fits'],
  'connected': True,
- 'context_history': [['2018-11-05 10:09:07',
+ 'context_history': [['2018-12-14 11:13:53',
+                      'jwst_0500.pmap',
+                      'Recently all NIRSPEC rmaps changed exposure type equals '
+                      'NRS BOTA to NRS MSATA and NRS WATA.   By appearances '
+                      'NIRSPEC BARSHADOW was missed and this rmap is the '
+                      'updated version.'],
+                     ['2018-12-03 15:43:39',
+                      'jwst_0499.pmap',
+                      'Updated NIRSpec linearity reference rmap where '
+                      'jwst_nirspec_linearity_0004.fits and '
+                      'jwst_nirspec_linearity_0005.fits were removed due to '
+                      'incorrect orientations.   Initial delivery of NIRSpec '
+                      'bias and dark for the SUB512S subarray.'],
+                     ['2018-11-05 10:09:07',
                       'jwst_0497.pmap',
                       'NIRSPEC GAIN and LINEARITY rmap updates for Jira '
                       'CRDS-240 and CRDS-241.'],
@@ -778,11 +791,11 @@
                      ['2012-09-06 00:00:00',
                       'jwst.pmap',
                       'Bootstrap mappings']],
- 'crds_version': {'rev': '7cde32b6', 'str': '7.2.9.1', 'svnurl': '/'},
- 'edit_context': 'jwst_0499.pmap',
+ 'crds_version': {'rev': 'f4b5d984', 'str': '7.3.1', 'svnurl': '/'},
+ 'edit_context': 'jwst_0500.pmap',
  'force_remote_mode': False,
- 'last_refreshed': '2018-11-19 15:00:04.384087',
- 'last_synced': '2018-11-19 15:35:19.200584',
+ 'last_refreshed': '2018-12-14 17:16:15.689753',
+ 'last_synced': '2018-12-14 17:16:16.621453',
  'mapping_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/mappings/jwst/'},
  'mappings': ['jwst.pmap',
               'jwst_0000.pmap',
@@ -1277,6 +1290,7 @@
               'jwst_0497.pmap',
               'jwst_0498.pmap',
               'jwst_0499.pmap',
+              'jwst_0500.pmap',
               'jwst_fgs_0000.imap',
               'jwst_fgs_0001.imap',
               'jwst_fgs_0002.imap',
@@ -2698,6 +2712,7 @@
               'jwst_nirspec_0177.imap',
               'jwst_nirspec_0178.imap',
               'jwst_nirspec_0179.imap',
+              'jwst_nirspec_0180.imap',
               'jwst_nirspec_amplifier_0000.rmap',
               'jwst_nirspec_area_0001.rmap',
               'jwst_nirspec_area_0002.rmap',
@@ -2710,6 +2725,7 @@
               'jwst_nirspec_area_0010.rmap',
               'jwst_nirspec_barshadow_0001.rmap',
               'jwst_nirspec_barshadow_0002.rmap',
+              'jwst_nirspec_barshadow_0003.rmap',
               'jwst_nirspec_camera_0001.rmap',
               'jwst_nirspec_camera_0002.rmap',
               'jwst_nirspec_camera_0003.rmap',
@@ -3109,7 +3125,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'jwst',
- 'operational_context': 'jwst_0497.pmap',
+ 'operational_context': 'jwst_0500.pmap',
  'reference_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/references/jwst/'},
  'server': 'https://jwst-crds.stsci.edu',
  'status': 'server',
