@@ -79,7 +79,21 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2018-12-14 09:38:24',
+ 'context_history': [['2018-12-28 14:14:08',
+                      'hst_0678.pmap',
+                      'WFC3 had an error in the USEAFTER date for file '
+                      '2ck18541i_bpx.fits, this incorrectly removed '
+                      'u5d2012li_bpx.fits from the rmap. USEAFTER of the new '
+                      'file was fixed in the rmap and the 2009 bpix file was '
+                      'put back in the rmap. The USEAFTER in the header of the '
+                      '2ck18541i_bpx.fits file was not modified.'],
+                     ['2018-12-20 17:24:10',
+                      'hst_0677.pmap',
+                      'New WFC3 UVIS bad pixel tables include flags value 8 '
+                      'for pixel instability, as described by WFC3 ISR '
+                      '2018.15, and the new bad pixel table changes how the '
+                      'WFC3 team is flagging pixels.'],
+                     ['2018-12-14 09:38:24',
                       'hst_0675.pmap',
                       'These files are used in the dark current subtraction '
                       'for WFC3 UVIS products from the December 2017 anneal '
@@ -1825,9 +1839,9 @@
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
  'crds_version': {'rev': 'd29e741b', 'str': '7.2.5', 'svnurl': '/'},
- 'edit_context': 'hst_0675.pmap',
+ 'edit_context': 'hst_0678.pmap',
  'force_remote_mode': False,
- 'last_synced': '2018-12-14 15:00:05.084765',
+ 'last_synced': '2019-01-02 07:00:05.357020',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -2317,6 +2331,9 @@
               'hst_0673.pmap',
               'hst_0674.pmap',
               'hst_0675.pmap',
+              'hst_0676.pmap',
+              'hst_0677.pmap',
+              'hst_0678.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -3582,6 +3599,9 @@
               'hst_wfc3_0412.imap',
               'hst_wfc3_0413.imap',
               'hst_wfc3_0414.imap',
+              'hst_wfc3_0415.imap',
+              'hst_wfc3_0416.imap',
+              'hst_wfc3_0417.imap',
               'hst_wfc3_atodtab.rmap',
               'hst_wfc3_atodtab_0250.rmap',
               'hst_wfc3_biacfile_0001.rmap',
@@ -3605,6 +3625,8 @@
               'hst_wfc3_bpixtab_0256.rmap',
               'hst_wfc3_bpixtab_0257.rmap',
               'hst_wfc3_bpixtab_0258.rmap',
+              'hst_wfc3_bpixtab_0259.rmap',
+              'hst_wfc3_bpixtab_0260.rmap',
               'hst_wfc3_ccdtab.rmap',
               'hst_wfc3_ccdtab_0250.rmap',
               'hst_wfc3_crrejtab.rmap',
@@ -3853,6 +3875,7 @@
               'hst_wfc3_imphttab_0254.rmap',
               'hst_wfc3_mdriztab.rmap',
               'hst_wfc3_mdriztab_0250.rmap',
+              'hst_wfc3_mdriztab_0251.rmap',
               'hst_wfc3_nlinfile.rmap',
               'hst_wfc3_nlinfile_0250.rmap',
               'hst_wfc3_npolfile_0250.rmap',
@@ -3896,7 +3919,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0675.pmap',
+ 'operational_context': 'hst_0678.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
