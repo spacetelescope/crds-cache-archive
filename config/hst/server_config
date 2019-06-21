@@ -96,7 +96,45 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2019-06-13 15:05:52',
+ 'context_history': [['2019-06-20 13:13:02',
+                      'hst_0713.pmap',
+                      'TDCTAB is used to derive a factor that gets multiplied '
+                      'to the NUVMAMA dark reference file before the dark '
+                      'subtraction. We found that the older TDCTAB is not '
+                      'scaling the dark correctly for data taken after Jan 1, '
+                      '2014, so we added 2 new rows to the TDCTAB to correctly '
+                      'scale the dark.'],
+                     ['2019-06-18 10:07:40',
+                      'hst_0712.pmap',
+                      'Removes the ACS SBC P-FLAT from the PFLTFILE rmap. This '
+                      'file was delivered to CRDS for storage purposes in case '
+                      'the need arises to retrieve it in the future. Only '
+                      'LP-flats should be used to calibrate ACS data.'],
+                     ['2019-06-18 08:34:05',
+                      'hst_0711.pmap',
+                      'Updated LP-flats for the ACS SBC have been created. The '
+                      'SBC P-flat was updated following ACS ISR 2016-02, which '
+                      'found that coherent pixel-to-pixel variations remained '
+                      'stable in the period 2002-2007, and then after a change '
+                      'have remained stable from 2007 to present. The creation '
+                      'of a new 2007 SBC P-flat necessitated the creation of '
+                      'new LP-flats with this USEAFTER date. In addition, the '
+                      'method for creating SBC L-flats was updated to use a '
+                      'new 2D fitting algorithm rather than a checkerboard. '
+                      'The L-flats were created using many more observations '
+                      'than were available for the previous delivery. This '
+                      'delivery includes a copy of the SBC P-flat for future '
+                      'reference by the ACS team. The P-flat will be removed '
+                      'from the rmap in the next context update as it should '
+                      'not be used to calibrate data and only LP-flats should '
+                      'be used for ACS data calibration.'],
+                     ['2019-06-17 13:38:06',
+                      'hst_0710.pmap',
+                      'New weekly biases and darks were created for the new '
+                      'anneal month and need to be delivered for GO '
+                      'observations. These files are available for STIS CCD '
+                      'observations taken after 08 May 2019.'],
+                     ['2019-06-13 15:05:52',
                       'hst_0709.pmap',
                       'Using new deuterium and Cycle 26 dark data, we updated '
                       'the low response, very low response, background '
@@ -2044,10 +2082,10 @@
  'crds_version': {'rev': '0739f7565259bc3e4946dbcda5e292149972b5ab',
                   'str': '7.3.3',
                   'svnurl': '/'},
- 'edit_context': 'hst_0709.pmap',
+ 'edit_context': 'hst_0713.pmap',
  'force_remote_mode': 0,
- 'last_refreshed': '2019-06-14 08:00:07.193979',
- 'last_synced': '2019-06-14 10:30:11.407404',
+ 'last_refreshed': '2019-06-21 16:00:05.771678',
+ 'last_synced': '2019-06-21 16:29:07.549424',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -2571,6 +2609,10 @@
               'hst_0707.pmap',
               'hst_0708.pmap',
               'hst_0709.pmap',
+              'hst_0710.pmap',
+              'hst_0711.pmap',
+              'hst_0712.pmap',
+              'hst_0713.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -2745,6 +2787,8 @@
               'hst_acs_0409.imap',
               'hst_acs_0410.imap',
               'hst_acs_0411.imap',
+              'hst_acs_0412.imap',
+              'hst_acs_0413.imap',
               'hst_acs_atodtab.rmap',
               'hst_acs_atodtab_0250.rmap',
               'hst_acs_biasfile.rmap',
@@ -3128,6 +3172,8 @@
               'hst_acs_pfltfile.rmap',
               'hst_acs_pfltfile_0250.rmap',
               'hst_acs_pfltfile_0251.rmap',
+              'hst_acs_pfltfile_0252.rmap',
+              'hst_acs_pfltfile_0253.rmap',
               'hst_acs_shadfile.rmap',
               'hst_acs_shadfile_0250.rmap',
               'hst_acs_snkcfile_0001.rmap',
@@ -3511,6 +3557,8 @@
               'hst_stis_0308.imap',
               'hst_stis_0309.imap',
               'hst_stis_0310.imap',
+              'hst_stis_0311.imap',
+              'hst_stis_0312.imap',
               'hst_stis_apdestab.rmap',
               'hst_stis_apdestab_0001.rmap',
               'hst_stis_apdestab_0250.rmap',
@@ -3579,6 +3627,7 @@
               'hst_stis_biasfile_0303.rmap',
               'hst_stis_biasfile_0305.rmap',
               'hst_stis_biasfile_0306.rmap',
+              'hst_stis_biasfile_0307.rmap',
               'hst_stis_bpixtab.rmap',
               'hst_stis_bpixtab_0250.rmap',
               'hst_stis_ccdtab.rmap',
@@ -3648,6 +3697,7 @@
               'hst_stis_darkfile_0302.rmap',
               'hst_stis_darkfile_0304.rmap',
               'hst_stis_darkfile_0305.rmap',
+              'hst_stis_darkfile_0306.rmap',
               'hst_stis_disptab.rmap',
               'hst_stis_disptab_0250.rmap',
               'hst_stis_echsctab.rmap',
@@ -3696,6 +3746,7 @@
               'hst_stis_tdctab.rmap',
               'hst_stis_tdctab_0001.rmap',
               'hst_stis_tdctab_0250.rmap',
+              'hst_stis_tdctab_0251.rmap',
               'hst_stis_tdstab.rmap',
               'hst_stis_tdstab_0250.rmap',
               'hst_stis_tdstab_0251.rmap',
@@ -4255,7 +4306,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0709.pmap',
+ 'operational_context': 'hst_0713.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
