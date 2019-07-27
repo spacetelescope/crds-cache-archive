@@ -53,7 +53,41 @@
                     'jwst_nirspec_superbias_0049.fits',
                     'jwst_nirspec_superbias_0050.fits'],
  'connected': True,
- 'context_history': [['2019-06-12 09:47:43',
+ 'context_history': [['2019-07-23 09:14:32',
+                      'jwst_0540.pmap',
+                      'New MRS REGIONS files for all channel-band combinations '
+                      'are being delivered to fix an issue where a few slices '
+                      'were incorrectly a fraction of an arcsec too long. '
+                      'There are no header format changes, no necessary '
+                      'pipeline revisions, and everything has been tested to '
+                      'work cleanly using the current conda-dev with these new '
+                      'reference files.  CRDS-285 adds additional NIRCam '
+                      'science and engineering pupil filter parings to the '
+                      'flat rmap for time series. Missing coverage was '
+                      'revealed from a DMS processing run of SOR4B Time Series '
+                      'grism data.'],
+                     ['2019-07-10 11:07:07',
+                      'jwst_0538.pmap',
+                      'As per JIRA ticket CRDS286, JP-830 and JWSTDMS-32 '
+                      'reported a failure of CRDS when selecting reference '
+                      'files for the MIRI Target Acq exposures, during '
+                      'calwebb_spec3 processing. This map submission is to '
+                      'define EXTRACT1D=N/A for MIR_TACQ cases.'],
+                     ['2019-07-08 09:56:34',
+                      'jwst_0537.pmap',
+                      'MIRI SUPERBIAS and DARK files created using data from '
+                      'OTIS testing in advance of the CDP4 delivery, for GSEG3 '
+                      'testing. The files have 88 frames, which provides more '
+                      'than enough data to be frame averaged for NRS data, as '
+                      'per JIRA issue CRDS 282.  NIRSpec area rmap where '
+                      'NRS_MSATA and NRS_WATA were added to the list of '
+                      'EXP_TYPEs that do not need this type of reference file '
+                      'applied. See JIRA CRDS-284 for more information.'],
+                     ['2019-06-24 10:42:38',
+                      'jwst_0535.pmap',
+                      'Per CRDS 220, initial delivery of NIRCam coronagrphic '
+                      'flats based on CV3 imaging flats.'],
+                     ['2019-06-12 09:47:43',
                       'jwst_0534.pmap',
                       'Addressing Jira CRDS-279 and CRDS-280,  adds EXP_TYPE '
                       'as a matching parameter to MIRI and NIRCAM PSFMASK and '
@@ -930,13 +964,13 @@
                      ['2012-09-06 00:00:00',
                       'jwst.pmap',
                       'Bootstrap mappings']],
- 'crds_version': {'rev': '0739f7565259bc3e4946dbcda5e292149972b5ab',
-                  'str': '7.3.3',
+ 'crds_version': {'rev': 'f32df8fc3edbbf8427ae197304e6524b4b90ba32',
+                  'str': '7.3.4',
                   'svnurl': '/'},
- 'edit_context': 'jwst_0535.pmap',
+ 'edit_context': 'jwst_0541.pmap',
  'force_remote_mode': 0,
- 'last_refreshed': '2019-06-21 16:00:04.240359',
- 'last_synced': '2019-06-21 16:29:18.680285',
+ 'last_refreshed': '2019-07-27 08:00:05.158897',
+ 'last_synced': '2019-07-27 08:04:06.606342',
  'mapping_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/mappings/jwst/'},
  'mappings': ['jwst.pmap',
               'jwst_0000.pmap',
@@ -1467,6 +1501,12 @@
               'jwst_0533.pmap',
               'jwst_0534.pmap',
               'jwst_0535.pmap',
+              'jwst_0536.pmap',
+              'jwst_0537.pmap',
+              'jwst_0538.pmap',
+              'jwst_0539.pmap',
+              'jwst_0540.pmap',
+              'jwst_0541.pmap',
               'jwst_fgs_0000.imap',
               'jwst_fgs_0001.imap',
               'jwst_fgs_0002.imap',
@@ -1843,6 +1883,8 @@
               'jwst_miri_0173.imap',
               'jwst_miri_0174.imap',
               'jwst_miri_0175.imap',
+              'jwst_miri_0176.imap',
+              'jwst_miri_0177.imap',
               'jwst_miri_amplifier_0000.rmap',
               'jwst_miri_area_0001.rmap',
               'jwst_miri_area_0002.rmap',
@@ -1920,6 +1962,7 @@
               'jwst_miri_extract1d_0008.rmap',
               'jwst_miri_extract1d_0009.rmap',
               'jwst_miri_extract1d_0010.rmap',
+              'jwst_miri_extract1d_0011.rmap',
               'jwst_miri_filteroffset_0001.rmap',
               'jwst_miri_filteroffset_0002.rmap',
               'jwst_miri_filteroffset_0003.rmap',
@@ -2099,6 +2142,7 @@
               'jwst_miri_regions_0020.rmap',
               'jwst_miri_regions_0021.rmap',
               'jwst_miri_regions_0022.rmap',
+              'jwst_miri_regions_0023.rmap',
               'jwst_miri_reset_0001.rmap',
               'jwst_miri_reset_0002.rmap',
               'jwst_miri_reset_0003.rmap',
@@ -2314,6 +2358,7 @@
               'jwst_nircam_0117.imap',
               'jwst_nircam_0118.imap',
               'jwst_nircam_0119.imap',
+              'jwst_nircam_0120.imap',
               'jwst_nircam_amplifier_0000.rmap',
               'jwst_nircam_area_0001.rmap',
               'jwst_nircam_area_0002.rmap',
@@ -2371,6 +2416,7 @@
               'jwst_nircam_flat_0011.rmap',
               'jwst_nircam_flat_0012.rmap',
               'jwst_nircam_flat_0013.rmap',
+              'jwst_nircam_flat_0014.rmap',
               'jwst_nircam_gain_0000.rmap',
               'jwst_nircam_gain_0001.rmap',
               'jwst_nircam_gain_0002.rmap',
@@ -2975,6 +3021,9 @@
               'jwst_nirspec_0187.imap',
               'jwst_nirspec_0188.imap',
               'jwst_nirspec_0189.imap',
+              'jwst_nirspec_0190.imap',
+              'jwst_nirspec_0191.imap',
+              'jwst_nirspec_0192.imap',
               'jwst_nirspec_amplifier_0000.rmap',
               'jwst_nirspec_area_0001.rmap',
               'jwst_nirspec_area_0002.rmap',
@@ -2987,6 +3036,7 @@
               'jwst_nirspec_area_0010.rmap',
               'jwst_nirspec_area_0011.rmap',
               'jwst_nirspec_area_0012.rmap',
+              'jwst_nirspec_area_0013.rmap',
               'jwst_nirspec_barshadow_0001.rmap',
               'jwst_nirspec_barshadow_0002.rmap',
               'jwst_nirspec_barshadow_0003.rmap',
@@ -3048,6 +3098,8 @@
               'jwst_nirspec_dark_0025.rmap',
               'jwst_nirspec_dark_0026.rmap',
               'jwst_nirspec_dark_0027.rmap',
+              'jwst_nirspec_dark_0028.rmap',
+              'jwst_nirspec_dark_0029.rmap',
               'jwst_nirspec_dflat_0001.rmap',
               'jwst_nirspec_dflat_0002.rmap',
               'jwst_nirspec_dflat_0003.rmap',
@@ -3267,6 +3319,7 @@
               'jwst_nirspec_readnoise_0012.rmap',
               'jwst_nirspec_readnoise_0013.rmap',
               'jwst_nirspec_readnoise_0014.rmap',
+              'jwst_nirspec_readnoise_0015.rmap',
               'jwst_nirspec_refpix_0003.rmap',
               'jwst_nirspec_refpix_0004.rmap',
               'jwst_nirspec_refpix_0005.rmap',
@@ -3275,6 +3328,7 @@
               'jwst_nirspec_refpix_0008.rmap',
               'jwst_nirspec_refpix_0009.rmap',
               'jwst_nirspec_refpix_0012.rmap',
+              'jwst_nirspec_refpix_0013.rmap',
               'jwst_nirspec_regions_0001.rmap',
               'jwst_nirspec_regions_0002.rmap',
               'jwst_nirspec_regions_0003.rmap',
@@ -3340,6 +3394,8 @@
               'jwst_nirspec_superbias_0032.rmap',
               'jwst_nirspec_superbias_0033.rmap',
               'jwst_nirspec_superbias_0034.rmap',
+              'jwst_nirspec_superbias_0035.rmap',
+              'jwst_nirspec_superbias_0036.rmap',
               'jwst_nirspec_trapdensity_0001.rmap',
               'jwst_nirspec_trapdensity_0002.rmap',
               'jwst_nirspec_trapdensity_0003.rmap',
@@ -3401,7 +3457,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'jwst',
- 'operational_context': 'jwst_0534.pmap',
+ 'operational_context': 'jwst_0540.pmap',
  'reference_url': {'jwst': 'https://jwst-crds.stsci.edu/unchecked_get/references/jwst/'},
  'server': 'https://jwst-crds.stsci.edu',
  'status': 'server',
