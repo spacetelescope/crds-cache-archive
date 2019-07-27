@@ -1,4 +1,5 @@
 {'bad_files_list': ['04p2041cj_fls.fits',
+                    '16r12191j_mdz.fits',
                     '1av1447fj_snk.fits',
                     '1av1447jj_snk.fits',
                     '1av1447mj_snk.fits',
@@ -96,7 +97,42 @@
                     'z1r1943fl_bpix.fits',
                     'z4g13201j_fls.fits'],
  'connected': True,
- 'context_history': [['2019-06-20 13:13:02',
+ 'context_history': [['2019-07-26 16:05:56',
+                      'hst_0721.pmap',
+                      'This removes ACS shutter shading correction SHADFILE '
+                      'and analog-to-digital conversion ATODTAB reference '
+                      'files. These corrections are always set to OMIT in the '
+                      'pipeline and users never need to perform these '
+                      'corrections for ACS data. These files are based on '
+                      'ground/dummy data, and were mainly used to test the ACS '
+                      'calibration pipeline prior to launch.'],
+                     ['2019-07-24 09:23:32', 'hst_0720.pmap', 'Not available.'],
+                     ['2019-07-19 15:22:21',
+                      'hst_0718.pmap',
+                      'Removes SBC dark files from active context. SBC dark '
+                      'files are not used by the automatic pipeline, and users '
+                      'should see ACS ISR 2017-04 or contact the ACS Help Desk '
+                      'for questions about when and how to remove SBC dark '
+                      'current if necessary.'],
+                     ['2019-07-16 12:54:33',
+                      'hst_0717.pmap',
+                      'When using the MDRZTAB reference file for a single '
+                      'image, the AstroDrizzle TEAL GUI will crash because '
+                      'driz_sep_kernel value was INDEF, which was an '
+                      'unacceptable input value. This update changes '
+                      'driz_sep_kernel for N=1 images from INDEF to minmed, '
+                      'which prevents TEAL from crashing.'],
+                     ['2019-07-15 15:20:45',
+                      'hst_0716.pmap',
+                      'These files were generated following the ACS WFC anneal '
+                      'on June 26, 2019, and should be used to calibrate ACS '
+                      'WFC observations taken between May 31, 2019 and June '
+                      '26, 2019.'],
+                     ['2019-07-01 15:06:37',
+                      'hst_0715.pmap',
+                      'The reason is that new STIS phottab and ACS WFC post '
+                      'flash reference files was delivered.'],
+                     ['2019-06-20 13:13:02',
                       'hst_0713.pmap',
                       'TDCTAB is used to derive a factor that gets multiplied '
                       'to the NUVMAMA dark reference file before the dark '
@@ -2079,13 +2115,13 @@
                       'Updated hst.pmap with new references (known to '
                       'reffile_ops_rep on harpo) up to 09-10-2013'],
                      ['2013-07-02 15:44:53', 'hst.pmap', 'set by system']],
- 'crds_version': {'rev': '0739f7565259bc3e4946dbcda5e292149972b5ab',
-                  'str': '7.3.3',
+ 'crds_version': {'rev': 'f32df8fc3edbbf8427ae197304e6524b4b90ba32',
+                  'str': '7.3.4',
                   'svnurl': '/'},
- 'edit_context': 'hst_0713.pmap',
+ 'edit_context': 'hst_0721.pmap',
  'force_remote_mode': 0,
- 'last_refreshed': '2019-06-21 16:00:05.771678',
- 'last_synced': '2019-06-21 16:29:07.549424',
+ 'last_refreshed': '2019-07-27 08:00:04.754722',
+ 'last_synced': '2019-07-27 08:02:45.465855',
  'mapping_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/mappings/hst/'},
  'mappings': ['hst.pmap',
               'hst_0001.pmap',
@@ -2613,6 +2649,14 @@
               'hst_0711.pmap',
               'hst_0712.pmap',
               'hst_0713.pmap',
+              'hst_0714.pmap',
+              'hst_0715.pmap',
+              'hst_0716.pmap',
+              'hst_0717.pmap',
+              'hst_0718.pmap',
+              'hst_0719.pmap',
+              'hst_0720.pmap',
+              'hst_0721.pmap',
               'hst_acs.imap',
               'hst_acs_0001.imap',
               'hst_acs_0002.imap',
@@ -2789,8 +2833,14 @@
               'hst_acs_0411.imap',
               'hst_acs_0412.imap',
               'hst_acs_0413.imap',
+              'hst_acs_0414.imap',
+              'hst_acs_0415.imap',
+              'hst_acs_0416.imap',
+              'hst_acs_0417.imap',
+              'hst_acs_0418.imap',
               'hst_acs_atodtab.rmap',
               'hst_acs_atodtab_0250.rmap',
+              'hst_acs_atodtab_0251.rmap',
               'hst_acs_biasfile.rmap',
               'hst_acs_biasfile_0001.rmap',
               'hst_acs_biasfile_0002.rmap',
@@ -2884,6 +2934,7 @@
               'hst_acs_biasfile_0340.rmap',
               'hst_acs_biasfile_0341.rmap',
               'hst_acs_biasfile_0342.rmap',
+              'hst_acs_biasfile_0343.rmap',
               'hst_acs_bpixtab.rmap',
               'hst_acs_bpixtab_0250.rmap',
               'hst_acs_bpixtab_0251.rmap',
@@ -3007,6 +3058,8 @@
               'hst_acs_darkfile_0356.rmap',
               'hst_acs_darkfile_0357.rmap',
               'hst_acs_darkfile_0358.rmap',
+              'hst_acs_darkfile_0359.rmap',
+              'hst_acs_darkfile_0360.rmap',
               'hst_acs_dgeofile.rmap',
               'hst_acs_dgeofile_0250.rmap',
               'hst_acs_drkcfile.rmap',
@@ -3127,6 +3180,7 @@
               'hst_acs_drkcfile_0368.rmap',
               'hst_acs_drkcfile_0369.rmap',
               'hst_acs_drkcfile_0370.rmap',
+              'hst_acs_drkcfile_0371.rmap',
               'hst_acs_flshfile.rmap',
               'hst_acs_flshfile_0250.rmap',
               'hst_acs_flshfile_0251.rmap',
@@ -3138,6 +3192,7 @@
               'hst_acs_flshfile_0257.rmap',
               'hst_acs_flshfile_0259.rmap',
               'hst_acs_flshfile_0260.rmap',
+              'hst_acs_flshfile_0261.rmap',
               'hst_acs_idctab.rmap',
               'hst_acs_idctab_0250.rmap',
               'hst_acs_idctab_0251.rmap',
@@ -3154,6 +3209,7 @@
               'hst_acs_mdriztab_0250.rmap',
               'hst_acs_mdriztab_0251.rmap',
               'hst_acs_mdriztab_0252.rmap',
+              'hst_acs_mdriztab_0253.rmap',
               'hst_acs_mlintab.rmap',
               'hst_acs_mlintab_0250.rmap',
               'hst_acs_npolfile.rmap',
@@ -3176,6 +3232,7 @@
               'hst_acs_pfltfile_0253.rmap',
               'hst_acs_shadfile.rmap',
               'hst_acs_shadfile_0250.rmap',
+              'hst_acs_shadfile_0251.rmap',
               'hst_acs_snkcfile_0001.rmap',
               'hst_acs_snkcfile_0002.rmap',
               'hst_acs_snkcfile_0003.rmap',
@@ -3201,6 +3258,7 @@
               'hst_acs_snkcfile_0024.rmap',
               'hst_acs_snkcfile_0025.rmap',
               'hst_acs_snkcfile_0026.rmap',
+              'hst_acs_snkcfile_0027.rmap',
               'hst_acs_spottab.rmap',
               'hst_acs_spottab_0250.rmap',
               'hst_cos.imap',
@@ -3559,6 +3617,7 @@
               'hst_stis_0310.imap',
               'hst_stis_0311.imap',
               'hst_stis_0312.imap',
+              'hst_stis_0313.imap',
               'hst_stis_apdestab.rmap',
               'hst_stis_apdestab_0001.rmap',
               'hst_stis_apdestab_0250.rmap',
@@ -3734,6 +3793,7 @@
               'hst_stis_phottab_0250.rmap',
               'hst_stis_phottab_0251.rmap',
               'hst_stis_phottab_0252.rmap',
+              'hst_stis_phottab_0253.rmap',
               'hst_stis_riptab.rmap',
               'hst_stis_riptab_0250.rmap',
               'hst_stis_sdctab.rmap',
@@ -3975,6 +4035,8 @@
               'hst_wfc3_0422.imap',
               'hst_wfc3_0423.imap',
               'hst_wfc3_0424.imap',
+              'hst_wfc3_0425.imap',
+              'hst_wfc3_0426.imap',
               'hst_wfc3_atodtab.rmap',
               'hst_wfc3_atodtab_0250.rmap',
               'hst_wfc3_biacfile_0001.rmap',
@@ -3988,6 +4050,8 @@
               'hst_wfc3_biasfile_0254.rmap',
               'hst_wfc3_biasfile_0255.rmap',
               'hst_wfc3_biasfile_0256.rmap',
+              'hst_wfc3_biasfile_0257.rmap',
+              'hst_wfc3_biasfile_0259.rmap',
               'hst_wfc3_bpixtab.rmap',
               'hst_wfc3_bpixtab_0250.rmap',
               'hst_wfc3_bpixtab_0251.rmap',
@@ -4306,7 +4370,7 @@
  'max_bestrefs_per_rpc': 1000,
  'max_headers_per_rpc': 1000,
  'observatory': 'hst',
- 'operational_context': 'hst_0713.pmap',
+ 'operational_context': 'hst_0721.pmap',
  'reference_url': {'hst': 'https://hst-crds.stsci.edu/unchecked_get/references/hst/'},
  'server': 'https://hst-crds.stsci.edu',
  'status': 'server',
