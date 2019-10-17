@@ -6,6 +6,7 @@
 1av1447pj_snk.fits
 1av1447sj_snk.fits
 1av14481j_snk.fits
+2018_super_bia.fits
 2131432nj_snk.fits
 23e16470l_gsag.fits
 2a41918ql_disp.fits
