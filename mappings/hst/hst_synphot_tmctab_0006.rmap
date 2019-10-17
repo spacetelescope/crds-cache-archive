@@ -1,0 +1,27 @@
+header = {
+    'classes' : ('Match',),
+    'derived_from' : 'hst_synphot_tmctab_0005.rmap',
+    'extra_keys' : (),
+    'file_ext' : '.fits',
+    'filekind' : 'TMCTAB',
+    'filetype' : 'CRCOMPLIST',
+    'instrument' : 'SYNPHOT',
+    'ld_tpn' : 'synphot_tmc_ld.tpn',
+    'mapping' : 'REFERENCE',
+    'name' : 'hst_synphot_tmctab_0006.rmap',
+    'observatory' : 'HST',
+    'parkey' : ((),),
+    'reffile_format' : 'TABLE',
+    'reffile_required' : 'YES',
+    'reffile_switch' : 'NONE',
+    'rmap_omit' : 'True',
+    'sha1sum' : 'ef7a869e624ebfcb0ea81ba20bac329e0d606468',
+    'suffix' : 'tmc',
+    'text_descr' : 'Master Component Lookup Table',
+    'tpn' : 'synphot_tmc.tpn',
+    'unique_rowkeys' : ('COMPNAME',),
+}
+
+selector = Match({
+    () : '39h19082m_tmc.fits',
+})
