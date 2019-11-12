@@ -1,0 +1,31 @@
+header = {
+    'classes' : ('Match', 'UseAfter'),
+    'derived_from' : 'jwst_nirspec_photom_0009.rmap',
+    'file_ext' : '.fits',
+    'filekind' : 'photom',
+    'filetype' : 'PHOTOM',
+    'instrument' : 'NIRSPEC',
+    'mapping' : 'REFERENCE',
+    'name' : 'jwst_nirspec_photom_0010.rmap',
+    'observatory' : 'JWST',
+    'parkey' : (('META.EXPOSURE.TYPE',), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
+    'sha1sum' : 'cddfbb666f723dbdaccb15f8ee0717ed6f24c1b3',
+    'suffix' : 'photom',
+    'text_descr' : 'Absolute Calibration',
+}
+
+selector = Match({
+    'N/A' : 'N/A',
+    'NRS_FIXEDSLIT|NRS_BRIGHTOBJ' : UseAfter({
+        '2010-01-01 00:00:00' : 'jwst_nirspec_photom_0011.fits',
+        '2019-10-18 00:00:00' : 'jwst_nirspec_photom_0014.fits',
+    }),
+    'NRS_IFU' : UseAfter({
+        '2010-01-01 00:00:00' : 'jwst_nirspec_photom_0013.fits',
+        '2019-10-18 00:00:00' : 'jwst_nirspec_photom_0016.fits',
+    }),
+    'NRS_MSASPEC' : UseAfter({
+        '2010-01-01 00:00:00' : 'jwst_nirspec_photom_0012.fits',
+        '2019-10-18 00:00:00' : 'jwst_nirspec_photom_0015.fits',
+    }),
+})

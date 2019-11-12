@@ -1,0 +1,92 @@
+header = {
+    'classes' : ('Match', 'UseAfter'),
+    'derived_from' : 'jwst_nircam_photom_0007.rmap',
+    'filekind' : 'PHOTOM',
+    'instrument' : 'NIRCAM',
+    'mapping' : 'REFERENCE',
+    'name' : 'jwst_nircam_photom_0008.rmap',
+    'observatory' : 'JWST',
+    'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.EXPOSURE.TYPE'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
+    'sha1sum' : '5e6689a65b8fb4e8010489fe86e114636428c64a',
+}
+
+selector = Match({
+    ('NRCA1', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0031.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0048.fits',
+    }),
+    ('NRCA1', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0063.fits',
+    }),
+    ('NRCA2', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0032.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0049.fits',
+    }),
+    ('NRCA2', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0053.fits',
+    }),
+    ('NRCA3', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0033.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0047.fits',
+    }),
+    ('NRCA3', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0060.fits',
+    }),
+    ('NRCA4', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0034.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0041.fits',
+    }),
+    ('NRCA4', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0058.fits',
+    }),
+    ('NRCALONG', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0035.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0050.fits',
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0051.fits',
+    }),
+    ('NRCALONG', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0059.fits',
+    }),
+    ('NRCALONG', 'NRC_GRISM|NRC_TSGRISM|NRC_WFSS') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0064.fits',
+    }),
+    ('NRCB1', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0036.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0044.fits',
+    }),
+    ('NRCB1', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0054.fits',
+    }),
+    ('NRCB2', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0037.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0043.fits',
+    }),
+    ('NRCB2', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0061.fits',
+    }),
+    ('NRCB3', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0038.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0042.fits',
+    }),
+    ('NRCB3', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0056.fits',
+    }),
+    ('NRCB4', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0039.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0045.fits',
+    }),
+    ('NRCB4', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0057.fits',
+    }),
+    ('NRCBLONG', 'N/A') : UseAfter({
+        '1900-01-01 00:00:00' : 'jwst_nircam_photom_0040.fits',
+        '2014-01-01 00:00:00' : 'jwst_nircam_photom_0046.fits',
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0052.fits',
+    }),
+    ('NRCBLONG', 'NRC_CORON|NRC_FLAT|NRC_IMAGE|NRC_TACONFIRM|NRC_TACQ|NRC_TSIMAGE') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0055.fits',
+    }),
+    ('NRCBLONG', 'NRC_GRISM|NRC_TSGRISM|NRC_WFSS') : UseAfter({
+        '2014-01-01 00:00:01' : 'jwst_nircam_photom_0062.fits',
+    }),
+})
