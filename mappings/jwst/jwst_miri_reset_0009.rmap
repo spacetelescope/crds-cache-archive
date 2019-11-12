@@ -1,0 +1,20 @@
+header = {
+    'classes' : ('Match', 'UseAfter'),
+    'derived_from' : 'jwst_miri_reset.rmap',
+    'file_ext' : '.fits',
+    'filekind' : 'RESET',
+    'filetype' : 'RESET',
+    'instrument' : 'MIRI',
+    'ld_tpn' : 'miri_reset_ld.tpn',
+    'mapping' : 'REFERENCE',
+    'name' : 'jwst_miri_reset_0009.rmap',
+    'observatory' : 'JWST',
+    'parkey' : (('META.INSTRUMENT.DETECTOR', 'META.SUBARRAY.NAME', 'META.EXPOSURE.READPATT'), ('META.OBSERVATION.DATE', 'META.OBSERVATION.TIME')),
+    'sha1sum' : 'feaa23e624933b9330d2914127a9807423e7be62',
+    'suffix' : 'reset',
+    'text_descr' : 'Reset Correction',
+    'tpn' : 'miri_reset.tpn',
+}
+
+selector = Match({
+})
